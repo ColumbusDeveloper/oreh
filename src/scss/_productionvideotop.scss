@@ -1,0 +1,127 @@
+
+   
+.row1 {
+    display: flex;
+}
+
+
+.production-imgbox-row1 {
+    
+		&__left-part {
+            @media (max-width:576px) {
+                margin-bottom: 20px;
+            }
+
+			&_img {
+                max-width: 78%;
+               
+			}
+		}
+
+		&__right-part {
+           
+            display: flex;
+            align-items: flex-end;
+            
+
+			&_video-box-play-icon {
+                position: absolute;
+                top:50%;
+                left:50%;
+                transform: translate(-50%,-50%);
+                
+
+            }
+
+            &_carousel-button-prev {
+                position: absolute;
+                top: auto;
+                bottom: 4px;
+                z-index: 1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 1;
+                width: auto;
+                padding: 0;
+                color: #fff;
+                text-align: center;
+                background: 0 0;
+                border: 0;
+                opacity: 1;
+                transition: opacity .15s ease;
+            }
+
+            &_carousel-button-next {
+                right: auto;
+                left: 32px;
+                position: absolute;
+                top: auto;
+                bottom: 4px;
+                z-index: 1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 1;
+                width: auto;
+                padding: 0;
+                color: #fff;
+                text-align: center;
+                background: 0 0;
+                border: 0;
+                opacity: 1;
+                transition: opacity .15s ease;
+            }
+
+            &_carousel-control-next-icon {
+                display: inline-block;
+                width: 2rem;
+                height: 2rem;
+                background-repeat: no-repeat;
+                background-position: 50%;
+                background-size: 100% 100%;
+                background-color: #337D5A;
+            }
+
+            &_carousel-control-prev-icon {
+                display: inline-block;
+                width: 2rem;
+                height: 2rem;
+                background-repeat: no-repeat;
+                background-position: 50%;
+                background-size: 100% 100%;
+                background-color: #337D5A;
+            }
+			
+
+		}
+}
+
+.carousel-item {
+    position: relative;
+}
+
+#carouselExampleControls {
+    position: relative;
+}
+
+
+
+#carouselExampleControls:hover .production-imgbox-row1__right-part_video-box-play-icon{
+    display: none;
+}
+
+.production-imgbox-row1 {
+
+		&__box {
+            display: flex;
+            justify-content: space-between;
+		}
+}
+
+
+
+
+
+
+
