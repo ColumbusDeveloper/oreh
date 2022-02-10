@@ -106,6 +106,12 @@
     position: relative;
 }
 
+.carousel-item video{
+    &:controls {
+        width: 0;
+    }
+}
+
 #carouselExampleControls {
     position: relative;
 }
