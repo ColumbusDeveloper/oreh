@@ -1307,6 +1307,8 @@
 @media (max-width: 576px) {
   .production-imgbox-row1__left-part {
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
   }
 }
 .production-imgbox-row1__left-part_img {
