@@ -1312,6 +1312,11 @@
 .production-imgbox-row1__left-part_img {
   max-width: 78%;
 }
+@media (max-width: 576px) {
+  .production-imgbox-row1__left-part_img {
+    max-width: 100%;
+  }
+}
 .production-imgbox-row1__right-part {
   display: flex;
   align-items: flex-end;
