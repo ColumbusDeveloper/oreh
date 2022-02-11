@@ -14,6 +14,11 @@
                 justify-content: center;
             }
 
+            @media (max-width:1200px) {
+                margin-bottom: 20px;
+                
+            }
+
 			&_img {
                 max-width: 78%;
                 @media (max-width:576px) {
@@ -138,7 +143,12 @@
 .production-imgbox-row1__box {
     @media (max-width:1200px) {
         flex-direction: column;
+        align-items: center;
     }
+}
+
+.production-imgbox-row1__right-part {
+    justify-content: center;
 }
 
 

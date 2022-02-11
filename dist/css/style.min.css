@@ -1318,6 +1318,11 @@
     justify-content: center;
   }
 }
+@media (max-width: 1200px) {
+  .production-imgbox-row1__left-part {
+    margin-bottom: 20px;
+  }
+}
 .production-imgbox-row1__left-part_img {
   max-width: 78%;
 }
@@ -1422,13 +1427,20 @@
 @media (max-width: 1200px) {
   .production-imgbox-row1__box {
     flex-direction: column;
+    align-items: center;
   }
+}
+
+.production-imgbox-row1__right-part {
+  justify-content: center;
 }
 
 .text-box-title-and-3items {
   border-width: 2px;
   border-style: solid;
   border-color: #000;
+  display: flex;
+  flex-direction: column;
 }
 
 .text-box-title-and-3items__title {

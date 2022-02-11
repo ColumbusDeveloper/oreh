@@ -2,6 +2,8 @@
     border-width:2px;
     border-style: solid;
     border-color: #000;
+    display: flex;
+    flex-direction: column;
 }
 
 .text-box-title-and-3items__title {
