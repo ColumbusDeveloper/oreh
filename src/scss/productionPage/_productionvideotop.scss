@@ -135,6 +135,12 @@
     margin-top: 5px;
 }
 
+.production-imgbox-row1__box {
+    @media (max-width:1200px) {
+        flex-direction: column;
+    }
+}
+
 
 
 
