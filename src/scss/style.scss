@@ -8,14 +8,14 @@
 
 
 
-@import "fonts";
-@import "header";
-@import "addressbox";
-@import "footer";
+@import "general/fonts";
+@import "general/header";
+@import "general/addressbox";
+@import "general/footer";
 @import "mainPage/galleryslider";
 @import "mainPage/imgbox";
 @import "productionPage/productionvideotop";
-@import "reset";
+@import "general/reset";
 
 body {
     // background-color: aqua;
