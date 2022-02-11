@@ -1,7 +1,4 @@
 .text-box-title-and-3items {
-    border-width:2px;
-    border-style: solid;
-    border-color: #000;
     display: flex;
     flex-direction: column;
 }
@@ -13,6 +10,14 @@
     font-size: 2.8em;
     line-height:3.3 em;
     margin-bottom: 40px;
+    @media (max-width:430px) {
+        font-size: 2em;
+       
+    }
+    @media (max-width:1200px) {
+        
+        text-align: center;
+    }
 }
 
 .text-box-title-and-3items__item {
