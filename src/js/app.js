@@ -271,8 +271,19 @@ var videoText3 = document.querySelector(".video-box-text3");
 console.log("Hi");
   
    
+var video = document.getElementsByTagName('video')[4];
+var play = document.getElementById('play');
+var videoTextOn = document.querySelector(".video-box-text-and-icon-on__text-and-icon-box");
 
-/*
-import Swiper, { Navigation, Pagination } from 'swiper';
-const swiper = new Swiper();
-*/
+
+  play.addEventListener('click', function () {
+    if (video.paused) {
+        video.play();
+        videoTextOn.classList.toggle("_none");
+    } else {
+        video.pause();
+        videoTextOn.classList.toggle("_none");
+    }
+}, false);
+
+
