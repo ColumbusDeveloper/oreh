@@ -1477,9 +1477,7 @@
   justify-content: center;
 }
 .declaration-4items__item {
-  border-width: 2px;
-  border-style: solid;
-  border-color: #000;
+  padding-top: 30px;
   min-width: 192px;
   display: flex;
   flex-direction: column;

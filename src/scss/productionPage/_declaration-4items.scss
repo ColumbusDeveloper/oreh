@@ -1,13 +1,12 @@
 .declaration-4items {
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     
 
     &__item {
-        border-width:2px;
-        border-style: solid;
-        border-color: #000;
+        padding-top: 30px;
         min-width: 192px;
         display: flex;
         flex-direction: column;
