@@ -1,0 +1,51 @@
+.box-2items-left-big {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    &__left-item {
+        
+        position: relative;
+        background: url("../img/green_box.png");
+        background-size: cover;
+
+        @media (max-width:768px) {
+            margin-bottom: 20px;
+            
+        }
+       
+        
+    }
+
+    &__text-box {
+        position: absolute;
+        top: 50px;
+        left: 20px;
+        
+    }
+
+    &__title {
+        color:#fff;
+        font-family:"Montserrat";
+        font-weight:800 ;
+        font-size: 1.38em;
+        line-height: 1.62em;
+        margin-bottom: 20px;
+    }
+
+    &__paragraph {
+        max-width: 77%;
+        color:#fff;
+        font-family:"Montserrat";
+        font-weight:700 ;
+        font-size: 0.94em;
+        line-height: 1.375em;
+    }
+
+    &__left-item-img {
+        max-width: 83%;
+        visibility: hidden;
+    }
+
+    
+}
