@@ -2,7 +2,7 @@ import * as flsFunctions from "./modules/functions.js";
 
 flsFunctions.isWebp();
 
-console.log("Hello!");
+
 
 import Swiper, { Navigation, Pagination } from 'swiper';
 import bootstrap from 'bootstrap';
@@ -253,7 +253,7 @@ var videoText2 = document.querySelector(".video-box-text2");
     }
 }, false);
   
-var videoEl3 = document.getElementsByTagName('video')[3];
+var videoEl3 = document.getElementById('video3');
 var playBtn3 = document.getElementById('playBtn3');
 var videoText3 = document.querySelector(".video-box-text3");
 
@@ -270,6 +270,27 @@ var videoText3 = document.querySelector(".video-box-text3");
 
 
 
+var videoEl4 = document.getElementById('video4');
+var playBtn4 = document.getElementById('playBtn4');
+var videoText4 = document.querySelector(".video-box-text-and-icon-on__text-and-icon-box");
+
+
+  playBtn4.addEventListener('click', function () {
+    if (videoEl4.paused) {
+        videoEl4.play();
+        videoText4.classList.toggle("_none4");
+    } else {
+        videoEl4.pause();
+        videoText4.classList.toggle("_none4");
+    }
+}, false);
+
+console.log("Hellooooo!!!");
    
+
+
+
+
+
 
 
