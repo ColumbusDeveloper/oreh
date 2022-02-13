@@ -269,21 +269,21 @@ var videoText3 = document.querySelector(".video-box-text3");
 }, false);
 
 
-  
-   
-var videoEl = document.getElementsByTagName('video')[4];
-var play = document.getElementById('play');
-var videoTextOn = document.querySelector(".video-box-text-and-icon-on__text-and-icon-box");
+var videoEl4 = document.getElementsByTagName('video')[4];
+var playBtn4 = document.getElementById('playBtn4');
+var videoText4 = document.querySelector(".video-box-text4");
 
 
-  play.addEventListener('click', function () {
-    if (videoEl.paused) {
-        videoEl.play();
-        videoTextOn.classList.toggle("_none");
+  playBtn3.addEventListener('click', function () {
+    if (videoEl4.paused) {
+        videoEl4.play();
+        videoText4.classList.toggle("_none4");
     } else {
-        videoEl.pause();
-        videoTextOn.classList.toggle("_none");
+        videoEl3.pause();
+        videoText3.classList.toggle("_none4");
     }
-}, false);
+}, false);  
+   
+
 
 
