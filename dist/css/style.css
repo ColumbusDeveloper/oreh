@@ -1655,7 +1655,13 @@
 }
 
 .banner-full-screen-wide-text-and-icon-on {
+  background: url("../img/banner_full_scfeen_nuts_in_the_hands_pic_1.png");
+  background-size: cover;
+  width: 1923px;
+  height: 740px;
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 .banner-full-screen-wide-text-and-icon-on__text-and-icon-box {
   display: flex;
@@ -1665,6 +1671,9 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.banner-full-screen-wide-text-and-icon-on__img {
+  width: 1923px;
 }
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0-modified | 20110126
