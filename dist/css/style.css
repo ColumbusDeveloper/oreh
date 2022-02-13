@@ -1617,6 +1617,43 @@
   text-align: center;
 }
 
+.img-box-3items {
+  display: flex;
+}
+.img-box-3items__left-item {
+  display: flex;
+  justify-content: flex-start;
+}
+.img-box-3items__left-item-img {
+  width: 96%;
+}
+.img-box-3items__mid-item {
+  display: flex;
+  justify-content: center;
+}
+.img-box-3items__mid-item-img {
+  width: 96%;
+}
+.img-box-3items__right-item {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+.img-box-3items__right-item-img {
+  width: 96%;
+}
+.img-box-3items__right-item-play-icon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+@media (max-width: 768px) {
+  .img-box-3items__right-item-play-icon {
+    width: 20%;
+  }
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0-modified | 20110126
    License: none (public domain)

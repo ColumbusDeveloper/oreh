@@ -1,0 +1,41 @@
+.img-box-3items {
+    display: flex;
+
+    &__left-item {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    &__left-item-img {
+        width: 96%;
+    }
+
+    &__mid-item {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__mid-item-img {
+        width: 96%;
+    }
+
+    &__right-item {
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &__right-item-img {
+        width: 96%;
+    }
+
+    &__right-item-play-icon {
+        position: absolute;
+        left: 50%;
+        top:50%;
+        transform: translate(-50%,-50%);
+        @media (max-width:768px) {
+            width: 20%;
+        }
+    }
+}
