@@ -1575,14 +1575,6 @@
 .video-box-text-and-icon-on {
   position: relative;
 }
-#play {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-}
-
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0-modified | 20110126
    License: none (public domain)
