@@ -1,8 +1,4 @@
 .banner-full-screen-wide-text-and-icon-on {
-    background: url("../img/banner_full_scfeen_nuts_in_the_hands_pic_1.png");
-    background-size: cover;
-    width: 1923px;
-    height: 740px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -17,25 +13,22 @@
         transform: translate(-50%,-50%);
     }
 
-    &__img {
-        width: 1923px;
-    }
-
     &__icon {
-
+        @media (max-width:576px) {
+        
+            width: 13%;
+        }
     }
 
     &__title {
-
+        @media (max-width:576px) {
+        
+            font-size: 1em;
+        }
     }
 
     &__paragraph {
-
+        text-align: center;
     }
 }
-.title-white {
 
-}
-.paragraph-white {
-
-}

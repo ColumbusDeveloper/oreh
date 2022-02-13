@@ -21,6 +21,8 @@
 
 .video-box-text-and-icon-on {
     position: relative;
+    display: flex;
+    justify-content: center;
 
     &:hover .video-box-text-and-icon-on__text-and-icon-box{
         display: none;
