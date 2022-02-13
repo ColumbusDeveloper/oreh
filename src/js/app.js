@@ -268,7 +268,7 @@ var videoText3 = document.querySelector(".video-box-text3");
     }
 }, false);
 
-console.log("Hi");
+
   
    
 var videoEl = document.getElementsByTagName('video')[4];
