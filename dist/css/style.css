@@ -1756,13 +1756,7 @@
   font-size: 0.875em;
   line-height: 1.25em;
   display: inline-block;
-}
-.slider-text-under-img__target-link::after {
-  content: "";
-  display: inline-block;
-  height: 2px;
-  width: 30px;
-  color: #337D5A;
+  position: relative;
 }
 .slider-text-under-img__play-icon {
   position: absolute;
