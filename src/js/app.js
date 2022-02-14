@@ -72,6 +72,7 @@ let slider2 = new Swiper ('.slider2', {
   },
 
   spaceBetween:30,
+  autoHeight:true,
 
 })
   
