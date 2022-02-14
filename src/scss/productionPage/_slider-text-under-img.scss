@@ -16,6 +16,7 @@
             flex-direction: column;
             justify-content: flex-start;
             padding: 15px;
+            position: relative;
       }
 
       &__data-link {
@@ -45,7 +46,15 @@
             line-height: 1.375em;
       }
 
-      &__target-link-box {}
+      &__target-link-box {
+         
+            max-width: 90px;
+            display: flex;
+            align-items: center;
+            position: absolute;
+            bottom: 0;
+            
+      }
 
       &__target-link {
             color: #337D5A;
@@ -54,10 +63,32 @@
             font-size: 0.875em;
             line-height: 1.25em;
             display: inline-block;
-            position: relative;
+            
       }
 
-      &__arrow-line {}
+      &__arrow-line {
+            display: inline-block;
+            height: 2px;
+            width: 30px;
+            background-color: #337D5A;
+            position: relative;
+            margin-left: 5px;
+            &::after {
+                  content: "";
+                  position: absolute;
+                  height: 10px;
+                  width: 10px;
+                  display: inline-block;
+                  background-color: transparent;
+                  border: 2px solid #337D5A;
+                  border-left: transparent;
+                  border-bottom: transparent;
+                  transform: rotate(45deg);
+                  margin-left: 20px;
+                  margin-top: -4px;
+            }
+
+      }
 
       &__play-icon {
             position: absolute;
