@@ -3,8 +3,6 @@
       &__slide {
             display: flex;
             flex-direction: column;
-           
-
             &_video {
                   position: relative;
             }
@@ -54,6 +52,7 @@
             align-items: center;
             position: absolute;
             bottom: 0;
+            left: 15px;
             
       }
 
@@ -99,6 +98,16 @@
       }
 }
 
-#slider-text-under-img__slide{
-      height: 480px;
+
+.slider2 {
+      
+      height: 100%;
+      
 }
+
+#slider-text-under-img__slide {
+     
+      height: 100%;
+      
+}
+

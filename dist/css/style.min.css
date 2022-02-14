@@ -1756,6 +1756,7 @@
   align-items: center;
   position: absolute;
   bottom: 0;
+  left: 15px;
 }
 .slider-text-under-img__target-link {
   color: #337D5A;
@@ -1794,8 +1795,12 @@
   transform: translate(-50%, -50%);
 }
 
+.slider2 {
+  height: 100%;
+}
+
 #slider-text-under-img__slide {
-  height: 480px;
+  height: 100%;
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/
