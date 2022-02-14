@@ -61,7 +61,7 @@ let slider2 = new Swiper ('.slider2', {
       slidesPerView:1,
     },
 
-    480:{
+    768:{
       slidesPerView:2,
     },
 
