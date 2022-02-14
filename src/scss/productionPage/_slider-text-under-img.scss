@@ -3,6 +3,7 @@
       &__slide {
             display: flex;
             flex-direction: column;
+           
 
             &_video {
                   position: relative;
@@ -96,4 +97,8 @@
             left: 50%;
             transform: translate(-50%, -50%);
       }
+}
+
+#slider-text-under-img__slide{
+      height: 480px;
 }
