@@ -42,7 +42,7 @@ let slider1 = new Swiper ('.slider1', {
     
   
   
-  }) 
+}) 
   
   
 let slider2 = new Swiper ('.slider2', {
@@ -54,14 +54,8 @@ let slider2 = new Swiper ('.slider2', {
     prevEl: '.swiper-button-prev2',
   },
 
-  slidesPerView:4,
+  slidesPerView:3,
   
-  zoom: {
-    maxRatio: 2,
-  },
-
-  toggle:true,
-
   breakpoints: {
     320:{
       slidesPerView:1,
@@ -75,14 +69,9 @@ let slider2 = new Swiper ('.slider2', {
       slidesPerView:3,
     },
 
-    1200:{
-      slidesPerView:4,
-    },
-
-
-
   },
 
+  spaceBetween:30,
 
 })
   
