@@ -56,13 +56,16 @@
             font-size: 0.875em;
             line-height: 1.25em;
             display: inline-block;
-            &::after {
-                content: "";
-                display: inline-block;
-                height: 2px;
-                width: 30px;
-                color: #337D5A;
-            }
+            position: relative;
+                  &::after {
+                        content: "";
+                        position: absolute;
+                        display: inline-block;
+                        height: 2px;
+                        width: 30px;
+                        color: #337D5A;
+                        z-index: 20;
+                  }
 		}
 
 		&__play-icon {
