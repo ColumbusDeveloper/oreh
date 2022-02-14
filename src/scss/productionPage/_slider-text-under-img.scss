@@ -1,78 +1,68 @@
-
 .slider-text-under-img {
 
-		&__slide {
+      &__slide {
             display: flex;
             flex-direction: column;
 
-			&_video {
-                position: relative;
-			}
-		}
+            &_video {
+                  position: relative;
+            }
+      }
 
-		&__img {
-            
-		}
+      &__img {}
 
-		&__text-box {
+      &__text-box {
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
             padding: 15px;
+      }
 
-		}
-
-		&__data-link {
+      &__data-link {
             margin-bottom: 15px;
-            color:#8A8A8A;
-            font-family:"Montserrat";       
+            color: #8A8A8A;
+            font-family: "Montserrat";
             font-weight: 500;
             font-size: 0.8125em;
             line-height: 1.375em;
-		}
+      }
 
-		&__subtitle {
+      &__subtitle {
             margin-bottom: 15px;
-            color:#1A2F3F;
-            font-family:"Raleway";
+            color: #1A2F3F;
+            font-family: "Raleway";
             font-weight: 700;
             font-size: 1em;
             line-height: 1.375em;
-		}
+      }
 
-		&__paragraph {
+      &__paragraph {
             margin-bottom: 15px;
-            color:#1A2F3F;
-            font-family:"Raleway";
+            color: #1A2F3F;
+            font-family: "Raleway";
             font-weight: 500;
             font-size: 0.875em;
             line-height: 1.375em;
-		}
+      }
 
-		&__target-link {
-            color:#337D5A;
-            font-family:"Raleway";
+      &__target-link-box {}
+
+      &__target-link {
+            color: #337D5A;
+            font-family: "Raleway";
             font-weight: 700;
             font-size: 0.875em;
             line-height: 1.25em;
             display: inline-block;
             position: relative;
-                  &::after {
-                        content: "";
-                        position: absolute;
-                        display: inline-block;
-                        height: 2px;
-                        width: 30px;
-                        color: #337D5A;
-                        z-index: 20;
-                  }
-		}
+      }
 
-		&__play-icon {
-            position:absolute;
+      &__arrow-line {}
+
+      &__play-icon {
+            position: absolute;
             top: 29%;
             left: 50%;
-            transform: translate(-50%,-50%);
-		}
+            transform: translate(-50%, -50%);
+      }
 }
-
