@@ -12,6 +12,7 @@ import Swiper, { Navigation, Pagination } from 'swiper';
 
 
 
+
 import bootstrap from 'bootstrap';
 
 let slider1 = new Swiper ('.slider1', {
@@ -22,8 +23,8 @@ let slider1 = new Swiper ('.slider1', {
   
   
     navigation: {
-      nextEl: '.swiper-button-next1',
-      prevEl: '.swiper-button-prev1',
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
     },
   
     breakpoints: {
@@ -56,7 +57,10 @@ let slider1 = new Swiper ('.slider1', {
 let slider2 = new Swiper ('.slider2', {
   loop: true,
   
-  
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
 
   
 
@@ -79,10 +83,8 @@ let slider2 = new Swiper ('.slider2', {
 
   spaceBetween:30,
   
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
+  modules: [Navigation, Pagination],
+
 
   autoplay:{
     delay:1000,
