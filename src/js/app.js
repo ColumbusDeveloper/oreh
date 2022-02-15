@@ -72,6 +72,11 @@ let slider2 = new Swiper ('.slider2', {
   },
 
   spaceBetween:30,
+
+  navigation: {
+    nextEl: '.swiper-button-next1',
+    prevEl: '.swiper-button-prev1',
+  },
   
 
 })
