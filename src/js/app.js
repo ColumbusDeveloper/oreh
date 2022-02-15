@@ -26,6 +26,8 @@ let slider1 = new Swiper ('.slider1', {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
+
+    modules: [Navigation, Pagination],
   
     breakpoints: {
       375:{
