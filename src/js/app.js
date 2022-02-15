@@ -5,6 +5,19 @@ flsFunctions.isWebp();
 
 
 import Swiper, { Navigation, Pagination } from 'swiper';
+
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
+const swiper = new Swiper('.swiper', {
+  
+  modules: [Navigation, Pagination],
+  
+});
+
+
+
 import bootstrap from 'bootstrap';
 
 let slider1 = new Swiper ('.slider1', {
@@ -50,8 +63,8 @@ let slider2 = new Swiper ('.slider2', {
   
 
   navigation: {
-    nextEl: '.swiper-button-next2',
-    prevEl: '.swiper-button-prev2',
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
   },
 
   slidesPerView:3,
@@ -74,9 +87,11 @@ let slider2 = new Swiper ('.slider2', {
   spaceBetween:30,
 
   navigation: {
-    nextEl: '.swiper-button-next1',
-    prevEl: '.swiper-button-prev1',
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
   },
+
+  
   
 
 })
