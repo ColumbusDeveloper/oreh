@@ -2,19 +2,13 @@ import * as flsFunctions from "./modules/functions.js";
 
 flsFunctions.isWebp();
 
-
-
 import Swiper, { Navigation, Pagination } from 'swiper';
 
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
 
-const swiper = new Swiper('.swiper', {
-  
-  modules: [Navigation, Pagination],
-  
-});
+
+
+
+
 
 
 
@@ -62,12 +56,9 @@ let slider1 = new Swiper ('.slider1', {
 let slider2 = new Swiper ('.slider2', {
   loop: true,
   
-  modules: [Navigation, Pagination],
   
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
+
+  
 
   slidesPerView:3,
   
@@ -87,11 +78,15 @@ let slider2 = new Swiper ('.slider2', {
   },
 
   spaceBetween:30,
-
+  
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
+
+  autoplay:{
+    delay:1000,
+  }
 
   
   
