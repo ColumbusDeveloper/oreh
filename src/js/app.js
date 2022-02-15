@@ -21,6 +21,7 @@ const swiper = new Swiper('.swiper', {
 import bootstrap from 'bootstrap';
 
 let slider1 = new Swiper ('.slider1', {
+
     loop: true,
   
     slidesPerView:1,
@@ -61,7 +62,8 @@ let slider1 = new Swiper ('.slider1', {
 let slider2 = new Swiper ('.slider2', {
   loop: true,
   
-
+  modules: [Navigation, Pagination],
+  
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
