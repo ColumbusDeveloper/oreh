@@ -2,6 +2,8 @@ import * as flsFunctions from "./modules/functions.js";
 
 flsFunctions.isWebp();
 
+import * as flsFunctions_bootstrap from "bootstrap.min.js";
+
 import Swiper, { Navigation, Pagination } from 'swiper';
 
 import bootstrap from 'bootstrap';
