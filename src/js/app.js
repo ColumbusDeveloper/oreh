@@ -2,7 +2,6 @@ import * as flsFunctions from "./modules/functions.js";
 
 flsFunctions.isWebp();
 
-
 import Swiper, { Navigation, Pagination } from 'swiper';
 
 import bootstrap from 'bootstrap';
@@ -14,12 +13,9 @@ let slider1 = new Swiper ('.slider1', {
     slidesPerView:1,
   
   
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
+    
 
-    modules: [Navigation, Pagination],
+    
   
     breakpoints: {
       375:{
