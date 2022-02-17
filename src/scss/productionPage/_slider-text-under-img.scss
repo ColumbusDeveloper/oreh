@@ -1,4 +1,5 @@
 .slider-text-under-img {
+      
 
       &__slide {
             display: flex;
@@ -103,23 +104,23 @@
       
       height: 100%;
       
+      
+      
 }
 
 
 
 .slider-button-prev2 {
       background-color: #1A2F3F;
-      // display: inline-block;
-      // position: absolute;
-      // bottom: 0;
-      // z-index: 1000;
+      
 }
 
 .slider-button-next2 {
       background-color: blue;
-      // display: inline-block;
-      // position: absolute;
-      // bottom: 0;
-      // z-index: 1000;
+     
+}
+
+#swiper-button-prev-out-of {
+      cursor: pointer;
 }
 

@@ -205,6 +205,12 @@ if (burgerIcon) {
     burgerIconOnBottom.classList.toggle("_none");
   }) 
 }
+
+
+document.getElementById('swiper-button-prev-out-of').addEventListener('click', function(event) {
+  event.preventDefault();
+  document.getElementById('swiper-button-prev').click();
+});
   
   
 console.log("Hello!!!");
