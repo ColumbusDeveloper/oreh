@@ -207,11 +207,17 @@ if (burgerIcon) {
 }
 
 
-document.getElementById('swiper-button-prev-out-of').addEventListener('click', function(event) {
-  event.preventDefault();
-  document.getElementById('swiper-button-prev').click();
-});
-  
+const swiperPrev = document.getElementById('swiperPrev')
+const swiperNext = document.getElementById('swiperNext')
+
+swiperPrev.addEventListener('click', () => {
+  slider2.slidePrev();
+})
+swiperNext.addEventListener('click', () => {
+  slider2.slideNext();
+})
+
+
   
 console.log("Hello!!!");
 

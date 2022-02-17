@@ -112,15 +112,19 @@
 
 .slider-button-prev2 {
       background-color: #1A2F3F;
+      visibility: hidden;
       
 }
 
 .slider-button-next2 {
       background-color: blue;
+      visibility: hidden;
      
 }
 
-#swiper-button-prev-out-of {
-      cursor: pointer;
+.swiper-navigation {
+      display: flex;
+      justify-content: end;
+  
 }
 
