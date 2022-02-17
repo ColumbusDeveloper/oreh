@@ -520,7 +520,13 @@
             <div class="row">
                 <div class="col slider-text-under-img">
     <div class="swiper slider2">
+
         <!-- Additional required wrapper -->
+
+        <div class="swiper-navigation">
+            <button id="swiperPrev">&lt;</button>
+            <button id="swiperNext">&gt;</button>
+        </div>
         <div class="swiper-wrapper slider-wrapper2">
             <!-- Slides -->
 
@@ -678,12 +684,12 @@
 
         </div>
         <!-- If we need pagination -->
-        <div class="swiper-pagination"></div> 
+        <div class="swiper-pagination"></div>  
 
         <!-- If we need navigation buttons -->
-       
-        <div class="swiper-button-prev slider-button-prev2" >ПРЕД</div>
-        <div class="swiper-button-next slider-button-next2">СЛЕД</div>
+        <div class="swiper-button-prev slider-button-prev2" id="slider-button-prev2">ПРЕД</div>
+        <div class="swiper-button-next slider-button-next2" id="slider-button-next2">СЛЕД</div>
+        
     
         
 
@@ -693,6 +699,8 @@
         
 
     </div>
+
+    
     
     
 
@@ -867,8 +875,8 @@
 
     </div>
 </footer>
-		<script src="js/app.min.js"></script>
+		
         <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-        
+        <script src="js/app.min.js"></script>
 	</body>
 </html>
