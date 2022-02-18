@@ -76,57 +76,61 @@ let slider2 = new Swiper ('.slider2', {
   modules: [Navigation, Pagination],
 
 
-  autoplay:{
-    delay:1000,
-  }
+  
 
   
   
 
 })
+
+
+
+
+
   
 let slider3 = new Swiper ('.slider3', {
   loop: true,
   
 
   navigation: {
-    nextEl: '.swiper-button-next3',
-    prevEl: '.swiper-button-prev3',
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
   },
 
-  slidesPerView:4,
+  modules: [Navigation, Pagination],
 
-  spaceBetween:60,
+  slidesPerView:1,
+
+  spaceBetween:0,
   
   zoom: {
-    maxRatio: 2,
+    maxRatio: 0,
   },
-
-  toggle:true,
-
-  breakpoints: {
-    320:{
-      slidesPerView:1,
-    },
-
-    480:{
-      slidesPerView:2,
-    },
-
-    576:{
-      slidesPerView:3,
-    },
-
-    1200:{
-      slidesPerView:4,
-    },
-
-
-
-  },
-
 
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
 let slider4 = new Swiper ('.slider4', {
   loop: true,
