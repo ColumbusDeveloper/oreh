@@ -1851,9 +1851,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 15px;
 }
 .video-box-text-and-icon-on__play-icon {
-  margin-top: 15px;
+  padding-top: 15px;
 }
 @media (max-width: 576px) {
   .video-box-text-and-icon-on__play-icon {
