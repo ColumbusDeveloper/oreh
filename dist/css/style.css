@@ -2001,6 +2001,26 @@
   font-size: 0.625em;
   line-height: 0.73em;
 }
+.multiple-slider-box-arrows-on__magnifying-glass-box {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+.multiple-slider-box-arrows-on__magnifying-glass-container {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #93B474;
+}
+.multiple-slider-box-arrows-on__magnifying-glass {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 .slider3__item {
   position: relative;
@@ -2051,25 +2071,6 @@
   .single-hidden-slider-box-arrows-on {
     display: block;
   }
-}
-.single-hidden-slider-box-arrows-on__magnifying-glass-box {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.single-hidden-slider-box-arrows-on__magnifying-glass-container {
-  position: relative;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-color: #93B474;
-}
-.single-hidden-slider-box-arrows-on__magnifying-glass {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/
