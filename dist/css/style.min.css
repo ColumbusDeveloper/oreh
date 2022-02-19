@@ -1814,6 +1814,224 @@
   justify-content: end;
 }
 
+.title-white {
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 1.375em;
+  line-height: 1.676em;
+}
+
+.paragraph-white {
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 0.875em;
+  line-height: 1.31em;
+}
+@media (max-width: 576px) {
+  .paragraph-white {
+    font-size: 0.6em;
+  }
+}
+
+.video-box-text-and-icon-on {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.video-box-text-and-icon-on:hover .video-box-text-and-icon-on__text-and-icon-box {
+  display: none;
+}
+.video-box-text-and-icon-on__text-and-icon-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.video-box-text-and-icon-on__play-icon {
+  padding-top: 15px;
+}
+@media (max-width: 576px) {
+  .video-box-text-and-icon-on__play-icon {
+    width: 8%;
+  }
+}
+.video-box-text-and-icon-on__paragraph {
+  text-align: center;
+}
+
+.multiple-slider-box-arrows-on {
+  position: relative;
+}
+.multiple-slider-box-arrows-on__subtitle {
+  color: #1A2F3F;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 1.125em;
+  line-height: 1.34em;
+  margin-top: 40px;
+}
+.multiple-slider-box-arrows-on__paragraph {
+  color: #8A8A8A;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 0.94em;
+  line-height: 1.14em;
+}
+.multiple-slider-box-arrows-on__paragraph_dark {
+  color: #1A2F3F;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 0.94em;
+  line-height: 1.14em;
+}
+.multiple-slider-box-arrows-on__paragraph_bold {
+  color: #337D5A;
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 0.94em;
+  line-height: 1.14em;
+}
+.multiple-slider-box-arrows-on__weight-package-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+.multiple-slider-box-arrows-on__icon-weight {
+  display: flex;
+}
+.multiple-slider-box-arrows-on__scales {
+  height: fit-content;
+  margin-right: 15px;
+}
+.multiple-slider-box-arrows-on__weight-text-box {
+  display: flex;
+  flex-direction: column;
+}
+.multiple-slider-box-arrows-on__icon-package {
+  display: flex;
+  align-items: center;
+}
+.multiple-slider-box-arrows-on__package {
+  height: fit-content;
+  margin-right: 15px;
+}
+.multiple-slider-box-arrows-on__price-button-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.multiple-slider-box-arrows-on__price {
+  display: flex;
+  align-items: flex-end;
+}
+.multiple-slider-box-arrows-on__price p {
+  margin-right: 5px;
+}
+.multiple-slider-box-arrows-on__paragraph-number-bold {
+  color: #337D5A;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 1.25em;
+  line-height: 1em;
+}
+.multiple-slider-box-arrows-on__text-crossed {
+  color: #8A8A8A;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 1.19em;
+  position: relative;
+}
+.multiple-slider-box-arrows-on__text-crossed::after {
+  content: "";
+  position: absolute;
+  background-color: #8A8A8A;
+  height: 2px;
+  width: 63px;
+  left: -4px;
+  top: 9px;
+}
+.multiple-slider-box-arrows-on__button {
+  background-color: #337D5A;
+}
+.multiple-slider-box-arrows-on__button-link-text {
+  color: #fff;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 0.875em;
+  line-height: 1em;
+  padding: 12px 30px 12px 30px;
+  display: inline-block;
+}
+.multiple-slider-box-arrows-on__flag-box {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  z-index: 1;
+}
+.multiple-slider-box-arrows-on__flag-box-container {
+  position: relative;
+}
+.multiple-slider-box-arrows-on__flag-text-on {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 0.625em;
+  line-height: 0.73em;
+}
+
+.slider3__item {
+  position: relative;
+}
+.slider3__img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.slider3__text-box-bottom-img {
+  margin-top: 250px;
+}
+.slider3__swiper-button-prev::after {
+  position: absolute;
+  top: -120px;
+  color: #C4C4C4;
+}
+.slider3__swiper-button-prev::before {
+  content: "";
+  position: absolute;
+  background-color: #C4C4C4;
+  height: 3px;
+  width: 63px;
+  left: 4px;
+  top: -99px;
+}
+.slider3__swiper-button-next::after {
+  position: absolute;
+  top: -120px;
+  color: #C4C4C4;
+}
+.slider3__swiper-button-next::before {
+  content: "";
+  position: absolute;
+  background-color: #C4C4C4;
+  height: 3px;
+  width: 63px;
+  left: -41px;
+  top: -99px;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0-modified | 20110126
    License: none (public domain)
