@@ -3,6 +3,10 @@
 .multiple-slider-box-arrows-on {
     display: flex;
     flex-wrap: wrap;
+    @media (max-width:1200px) {
+        
+        display: none;
+    }
     
 
 

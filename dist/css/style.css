@@ -1869,6 +1869,11 @@
   display: flex;
   flex-wrap: wrap;
 }
+@media (max-width: 1200px) {
+  .multiple-slider-box-arrows-on {
+    display: none;
+  }
+}
 .multiple-slider-box-arrows-on__item {
   position: relative;
   padding: 15px;
@@ -2037,6 +2042,15 @@
   width: 20px;
   left: -3px;
   top: -112px;
+}
+
+.single-hidden-slider-box-arrows-on {
+  display: none;
+}
+@media (max-width: 1200px) {
+  .single-hidden-slider-box-arrows-on {
+    display: block;
+  }
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/
