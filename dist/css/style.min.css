@@ -1866,7 +1866,26 @@
 }
 
 .multiple-slider-box-arrows-on {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 1200px) {
+  .multiple-slider-box-arrows-on {
+    display: none;
+  }
+}
+.multiple-slider-box-arrows-on__item {
   position: relative;
+  padding: 15px;
+}
+.multiple-slider-box-arrows-on__item:hover .swiper-button-prev {
+  visibility: visible;
+}
+.multiple-slider-box-arrows-on__item:hover .swiper-button-next {
+  visibility: visible;
+}
+.multiple-slider-box-arrows-on__item:hover .multiple-slider-box-arrows-on__magnifying-glass-box {
+  visibility: visible;
 }
 .multiple-slider-box-arrows-on__subtitle {
   color: #1A2F3F;
@@ -1991,6 +2010,27 @@
   font-size: 0.625em;
   line-height: 0.73em;
 }
+.multiple-slider-box-arrows-on__magnifying-glass-box {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  visibility: hidden;
+}
+.multiple-slider-box-arrows-on__magnifying-glass-container {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #93B474;
+}
+.multiple-slider-box-arrows-on__magnifying-glass {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 .slider3__item {
   position: relative;
@@ -2003,33 +2043,50 @@
 .slider3__text-box-bottom-img {
   margin-top: 250px;
 }
+.slider3__swiper-button-prev {
+  visibility: hidden;
+}
 .slider3__swiper-button-prev::after {
   position: absolute;
   top: -120px;
   color: #C4C4C4;
+  font-size: 20px;
 }
 .slider3__swiper-button-prev::before {
   content: "";
   position: absolute;
   background-color: #C4C4C4;
   height: 3px;
-  width: 63px;
-  left: 4px;
-  top: -99px;
+  width: 20px;
+  left: 10px;
+  top: -111px;
+}
+.slider3__swiper-button-next {
+  visibility: hidden;
 }
 .slider3__swiper-button-next::after {
   position: absolute;
   top: -120px;
   color: #C4C4C4;
+  font-size: 20px;
 }
 .slider3__swiper-button-next::before {
   content: "";
   position: absolute;
   background-color: #C4C4C4;
   height: 3px;
-  width: 63px;
-  left: -41px;
-  top: -99px;
+  width: 20px;
+  left: -3px;
+  top: -112px;
+}
+
+.single-hidden-slider-box-arrows-on {
+  display: none;
+}
+@media (max-width: 1200px) {
+  .single-hidden-slider-box-arrows-on {
+    display: block;
+  }
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/

@@ -101,6 +101,7 @@ let slider3 = new Swiper ('.slider3', {
 
   slidesPerView:1,
 
+  
   spaceBetween:0,
   
   zoom: {
