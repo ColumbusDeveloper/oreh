@@ -6,6 +6,10 @@ import Swiper, { Navigation, Pagination } from 'swiper';
 
 import bootstrap from 'bootstrap';
 
+
+
+
+
 let slider1 = new Swiper ('.slider1', {
 
     loop: true,
