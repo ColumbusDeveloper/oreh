@@ -2090,6 +2090,26 @@
   }
 }
 
+.button-central-position {
+  display: flex;
+  justify-content: center;
+}
+.button-central-position__text {
+  display: inline-block;
+  padding: 7px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #337D5A;
+  color: #337D5A;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 0.94em;
+  line-height: 1.1em;
+}
+.button-central-position__text:hover {
+  background-color: violet;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0-modified | 20110126
    License: none (public domain)
