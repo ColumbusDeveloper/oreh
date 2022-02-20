@@ -136,19 +136,23 @@ let slider3 = new Swiper ('.slider3', {
 
 
 
+
+
   
 let slider4 = new Swiper ('.slider4', {
   loop: true,
   
-
   navigation: {
-    nextEl: '.swiper-button-next4',
-    prevEl: '.swiper-button-prev4',
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
   },
 
-  slidesPerView:4,
+  modules: [Navigation, Pagination],
+  
 
-  spaceBetween:60,
+  slidesPerView:1,
+
+  // spaceBetween:60,
   
   zoom: {
     maxRatio: 2,
@@ -156,27 +160,27 @@ let slider4 = new Swiper ('.slider4', {
 
   toggle:true,
 
-  breakpoints: {
-    320:{
-      slidesPerView:1,
-    },
+  // breakpoints: {
+  //   320:{
+  //     slidesPerView:1,
+  //   },
 
-    480:{
-      slidesPerView:2,
-    },
+  //   480:{
+  //     slidesPerView:2,
+  //   },
 
-    576:{
+  //   576:{
 
-      slidesPerView:3,
-    },
+  //     slidesPerView:3,
+  //   },
 
-    1200:{
-      slidesPerView:4,
-    },
+  //   1200:{
+  //     slidesPerView:4,
+  //   },
 
 
 
-  },
+  // },
 
 
 })
@@ -224,6 +228,16 @@ swiperPrev.addEventListener('click', () => {
 })
 swiperNext.addEventListener('click', () => {
   slider2.slideNext();
+})
+
+const swiperPrevSlider4 = document.getElementById('swiperPrev')
+const swiperNextSlider4 = document.getElementById('swiperNext')
+
+swiperPrevSlider4.addEventListener('click', () => {
+  slider4.slidePrev();
+})
+swiperNextSlider4.addEventListener('click', () => {
+  slider4.slideNext();
 })
 
 

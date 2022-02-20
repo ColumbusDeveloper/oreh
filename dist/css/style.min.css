@@ -2110,6 +2110,30 @@
   background-color: violet;
 }
 
+.text-and-slider-box-slider-right {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+}
+.text-and-slider-box-slider-right__play-icon {
+  top: 50%;
+}
+.text-and-slider-box-slider-right__swiper-navigation {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #337D5A;
+}
+.text-and-slider-box-slider-right__swiperPrev {
+  background-color: #337D5A;
+  color: #fff;
+}
+.text-and-slider-box-slider-right__swiperNext {
+  background-color: #337D5A;
+  color: #fff;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0-modified | 20110126
    License: none (public domain)
