@@ -1878,6 +1878,15 @@
   position: relative;
   padding: 15px;
 }
+.multiple-slider-box-arrows-on__item:hover .swiper-button-prev {
+  visibility: visible;
+}
+.multiple-slider-box-arrows-on__item:hover .swiper-button-next {
+  visibility: visible;
+}
+.multiple-slider-box-arrows-on__item:hover .multiple-slider-box-arrows-on__magnifying-glass-box {
+  visibility: visible;
+}
 .multiple-slider-box-arrows-on__subtitle {
   color: #1A2F3F;
   font-family: "Raleway";
@@ -2007,6 +2016,7 @@
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
+  visibility: hidden;
 }
 .multiple-slider-box-arrows-on__magnifying-glass-container {
   position: relative;
@@ -2033,6 +2043,9 @@
 .slider3__text-box-bottom-img {
   margin-top: 250px;
 }
+.slider3__swiper-button-prev {
+  visibility: hidden;
+}
 .slider3__swiper-button-prev::after {
   position: absolute;
   top: -120px;
@@ -2047,6 +2060,9 @@
   width: 20px;
   left: 10px;
   top: -111px;
+}
+.slider3__swiper-button-next {
+  visibility: hidden;
 }
 .slider3__swiper-button-next::after {
   position: absolute;
