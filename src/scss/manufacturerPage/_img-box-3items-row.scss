@@ -1,4 +1,5 @@
 .img-box-3items-row {
+    display: flex;
 
     &__first-item {
         display: flex;
@@ -40,8 +41,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background: url(../img/haselnut.png);
+        background: url(../img/hazelnut.png);
         background-size: cover;
+        height: 584px;
     }
 
     &__second-item-icon-and-text-box {
@@ -50,7 +52,8 @@
         align-items: center;
     }
 
-    &__icon-nut {
+    &__second-item-icon {
+        margin-bottom: 20px;
 
     }
 
