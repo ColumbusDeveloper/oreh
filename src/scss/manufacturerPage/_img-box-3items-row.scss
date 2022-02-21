@@ -1,5 +1,60 @@
+
+
+
+
 .img-box-3items-row {
     display: flex;
+    flex-wrap: wrap;
+
+    &__item:not(:last-child) {
+        @media (max-width:992px) {
+        
+            margin-bottom: 20px;
+        }
+
+        @media (max-width:500px) {
+            margin-bottom: 0px;
+            
+        }
+
+        // @media (max-width:460px) {
+        //     margin-bottom: -35px;
+            
+        // }
+
+        // @media (max-width:440px) {
+        //     margin-bottom: -63px;
+            
+        // }
+
+        // @media (max-width:415px) {
+        //     margin-bottom: -80px;
+            
+        // }
+
+        // @media (max-width:400px) {
+        //     margin-bottom: -110px;
+            
+        // }
+
+        // @media (max-width:390px) {
+        //     margin-bottom: -122px;
+            
+        // }
+
+        // @media (max-width:383px) {
+        //     margin-bottom: -131px;
+            
+        // }
+
+        // @media (max-width:374px) {
+        //     margin-bottom: -141px;
+            
+        // }
+
+        
+        
+    }
 
     &__first-item {
         display: flex;
@@ -7,10 +62,15 @@
         align-items: center;
         position: relative;
         background: url(../img/overlay_green.png), url(../img/nuts_in_bowl.png);
-        background-size: cover, cover;
-        height: 584px;
+        background-size: 95%, 95%;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 584px;
+        
+      
     }
 
+   
     &__icon-nut {
         position: absolute;
         left: 50%;
@@ -42,8 +102,11 @@
         align-items: center;
         justify-content: center;
         background: url(../img/hazelnut.png);
-        background-size: cover;
-        height: 584px;
+        background-size: 95%, 95%;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 584px;
+       
     }
 
     &__second-item-icon-and-text-box {
@@ -61,4 +124,33 @@
 
     }
 }
+
+.img-box-3items-row {
+
+    &__third-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: url(../img/rose_hip.png);
+        background-size: 95%, 95%;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 584px;
+        
+    }
+
+    &__third-item-icon-and-text-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__third-item-icon {
+        margin-bottom: 20px;
+    }
+
+    
+}
+
+
 

@@ -2178,6 +2178,17 @@
 
 .img-box-3items-row {
   display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 992px) {
+  .img-box-3items-row__item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .img-box-3items-row__item:not(:last-child) {
+    margin-bottom: 0px;
+  }
 }
 .img-box-3items-row__first-item {
   display: flex;
@@ -2185,8 +2196,10 @@
   align-items: center;
   position: relative;
   background: url(../img/overlay_green.png), url(../img/nuts_in_bowl.png);
-  background-size: cover, cover;
-  height: 584px;
+  background-size: 95%, 95%;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 584px;
 }
 .img-box-3items-row__icon-nut {
   position: absolute;
@@ -2210,8 +2223,10 @@
   align-items: center;
   justify-content: center;
   background: url(../img/hazelnut.png);
-  background-size: cover;
-  height: 584px;
+  background-size: 95%, 95%;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 584px;
 }
 .img-box-3items-row__second-item-icon-and-text-box {
   display: flex;
@@ -2221,6 +2236,25 @@
 .img-box-3items-row__second-item-icon {
   margin-bottom: 20px;
 }
+.img-box-3items-row__third-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../img/rose_hip.png);
+  background-size: 95%, 95%;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 584px;
+}
+.img-box-3items-row__third-item-icon-and-text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img-box-3items-row__third-item-icon {
+  margin-bottom: 20px;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0-modified | 20110126
    License: none (public domain)
