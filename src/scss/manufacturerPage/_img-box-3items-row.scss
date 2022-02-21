@@ -1,0 +1,61 @@
+.img-box-3items-row {
+
+    &__first-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        background: url(../img/overlay_green.png), url(../img/nuts_in_bowl.png);
+        background-size: cover, cover;
+        height: 584px;
+    }
+
+    &__icon-nut {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 20%;
+    }
+
+    &__title {
+        margin-bottom: 20px;
+        margin-top: 215px;
+    }
+
+    &__paragraph {
+        width: 80%;
+
+        &_top {
+            margin-bottom: 20px;
+        }
+    }
+
+   
+}
+
+.img-box-3items-row {
+    
+
+    &__second-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: url(../img/haselnut.png);
+        background-size: cover;
+    }
+
+    &__second-item-icon-and-text-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__icon-nut {
+
+    }
+
+    &__second-item-text {
+
+    }
+}
+
