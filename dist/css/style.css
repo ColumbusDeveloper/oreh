@@ -2168,6 +2168,21 @@
   }
 }
 
+.video-box-text-and-icon-on__play-icon_icon-between {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+@media (max-width: 576px) {
+  .video-box-text-and-icon-on__play-icon_icon-between {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    width: 5%;
+  }
+}
+.video-box-text-and-icon-on__paragraph_italic {
+  font-style: italic;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0-modified | 20110126
    License: none (public domain)
