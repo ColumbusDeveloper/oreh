@@ -2180,55 +2180,50 @@
   display: flex;
   flex-wrap: wrap;
 }
-@media (max-width: 992px) {
-  .img-box-3items-row__item:not(:last-child) {
-    margin-bottom: 20px;
-  }
-}
-@media (max-width: 500px) {
-  .img-box-3items-row__item:not(:last-child) {
-    margin-bottom: 0px;
-  }
-}
 .img-box-3items-row__first-item {
+  position: relative;
+}
+.img-box-3items-row__item {
+  padding: 10px;
+}
+.img-box-3items-row__icon-text-overlay-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 95%;
+}
+.img-box-3items-row__icon-text-box {
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
-  background: url(../img/overlay_green.png), url(../img/nuts_in_bowl.png);
-  background-size: 95%, 95%;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 584px;
-}
-.img-box-3items-row__icon-nut {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  top: 20%;
-}
-.img-box-3items-row__title {
-  margin-bottom: 20px;
-  margin-top: 215px;
+  padding-top: 15px;
 }
 .img-box-3items-row__paragraph {
-  width: 80%;
+  padding: 15px;
+  width: calc(270px + 70 * (100vw - 374px) / 1546);
 }
-.img-box-3items-row__paragraph_top {
-  margin-bottom: 20px;
+@media (max-width: 576px) {
+  .img-box-3items-row__paragraph {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
-
 .img-box-3items-row__second-item {
+  position: relative;
   display: flex;
-  align-items: center;
   justify-content: center;
-  background: url(../img/hazelnut.png);
-  background-size: 95%, 95%;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 584px;
 }
 .img-box-3items-row__second-item-icon-and-text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -2237,16 +2232,15 @@
   margin-bottom: 20px;
 }
 .img-box-3items-row__third-item {
+  position: relative;
   display: flex;
-  align-items: center;
   justify-content: center;
-  background: url(../img/rose_hip.png);
-  background-size: 95%, 95%;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 584px;
 }
 .img-box-3items-row__third-item-icon-and-text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
   align-items: center;
