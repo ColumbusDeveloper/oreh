@@ -2360,16 +2360,16 @@
   transform: translate(-50%, -50%);
 }
 
-.slider2 {
+.slider5 {
   height: 100%;
 }
 
-.slider-button-prev2 {
+.slider-button-prev5 {
   background-color: #1A2F3F;
   visibility: hidden;
 }
 
-.slider-button-next2 {
+.slider-button-next5 {
   background-color: blue;
   visibility: hidden;
 }
@@ -2377,6 +2377,17 @@
 .swiper-navigation {
   display: flex;
   justify-content: end;
+  z-index: 1;
+}
+
+.swiperPrev {
+  background-color: #337D5A;
+  color: #fff;
+}
+
+.swiperNext {
+  background-color: #337D5A;
+  color: #fff;
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/
