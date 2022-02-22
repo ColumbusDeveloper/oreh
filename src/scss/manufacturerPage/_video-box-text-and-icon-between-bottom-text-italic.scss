@@ -1,0 +1,29 @@
+
+.video-box-text-and-icon-on {
+
+		
+		
+    &__play-icon {
+
+        &_icon-between {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            @media (max-width:576px) {
+                margin-top: 0px;
+                margin-bottom: 5px;
+                width: 5%;
+            }
+            
+        }
+    }
+
+    &__paragraph {
+
+        &_italic {
+            font-style: italic;
+
+        }
+    }
+}
+
+

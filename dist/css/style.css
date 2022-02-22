@@ -5,13 +5,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Open+Sans+Condensed:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&family=Open+Sans+Condensed:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
 @font-face {
   font-family: CormorantUpright;
@@ -2168,6 +2161,94 @@
   }
 }
 
+.video-box-text-and-icon-on__play-icon_icon-between {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+@media (max-width: 576px) {
+  .video-box-text-and-icon-on__play-icon_icon-between {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    width: 5%;
+  }
+}
+.video-box-text-and-icon-on__paragraph_italic {
+  font-style: italic;
+}
+
+.img-box-3items-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.img-box-3items-row__first-item {
+  position: relative;
+}
+.img-box-3items-row__item {
+  padding: 10px;
+}
+.img-box-3items-row__icon-text-overlay-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 95%;
+}
+.img-box-3items-row__icon-text-box {
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+}
+.img-box-3items-row__paragraph {
+  padding: 15px;
+  width: calc(270px + 70 * (100vw - 374px) / 1546);
+}
+@media (max-width: 576px) {
+  .img-box-3items-row__paragraph {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.img-box-3items-row__second-item {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.img-box-3items-row__second-item-icon-and-text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img-box-3items-row__second-item-icon {
+  margin-bottom: 20px;
+}
+.img-box-3items-row__third-item {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.img-box-3items-row__third-item-icon-and-text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img-box-3items-row__third-item-icon {
+  margin-bottom: 20px;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0-modified | 20110126
    License: none (public domain)
@@ -2585,34 +2666,6 @@ textarea {
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: CormorantUpright;
-  font-display: swap;
-  src: url("../fonts/CormorantUpright-Bold.woff2") format("woff2"), url("../fonts/CormorantUpright-Bold.woff") format("woff");
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face {
-  font-family: CormorantUpright;
-  font-display: swap;
-  src: url("../fonts/CormorantUpright-Regular.woff2") format("woff2"), url("../fonts/CormorantUpright-Regular.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: CormorantUpright;
-  font-display: swap;
-  src: url("../fonts/CormorantUpright-SemiBold.woff2") format("woff2"), url("../fonts/CormorantUpright-SemiBold.woff") format("woff");
-  font-weight: 600;
-  font-style: normal;
-}
-@font-face {
-  font-family: TTTrailers;
-  font-display: swap;
-  src: url("../fonts/TTTrailers-Regular.woff2") format("woff2"), url("../fonts/TTTrailers-Regular.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
 body {
   max-width: 1920px;
   margin: 0 auto;
