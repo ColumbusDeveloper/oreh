@@ -6,10 +6,18 @@
 	<body>
 		@@include('html/header.html',{})
 		<main>
+            @@include('html/header.html',{})
+
+            <div class="container-fluid">
+				<div class="row">
+					@@include('html/catalog/banner-full-screen-wide-text-and-icon-top-on.html',{})
+				</div>
+			</div>
+            
 			
 		</main>
-		@@include('html/footer.html',{})
 		
+		@@include('html/footer.html',{})
         <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
         <script src="js/app.min.js"></script>
 	</body>

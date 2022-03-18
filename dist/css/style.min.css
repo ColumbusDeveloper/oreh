@@ -3025,12 +3025,12 @@ textarea {
   box-sizing: border-box;
 }
 
-body {
+banner-full-screen-wide-narrow-text-center-on.scss body {
   max-width: 1920px;
   margin: 0 auto;
   font-size: 16px;
   overflow-x: hidden;
 }
-body a {
+banner-full-screen-wide-narrow-text-center-on.scss body a {
   text-decoration: none;
 }
