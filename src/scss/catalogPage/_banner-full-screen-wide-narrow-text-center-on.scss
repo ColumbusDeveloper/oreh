@@ -1,4 +1,5 @@
 .banner-full-screen-wide-narrow-text-center-on {
+    position: relative;
 
     &__img {
 
@@ -9,8 +10,26 @@
     }
 
     &__title {
-
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color:#fff;
+        font-family:"Raleway";
+        font-weight: 800;
+        font-size: 3.88em;
+        @media (max-width:1250px) {
+            font-size: 2.88em;
+        }
+        @media (max-width:910px) {
+            font-size: 1.88em;
+        }
+        @media (max-width:600px) {
+            font-size: 0.88em;
+        }
     }
+
+    
 }
 
 

@@ -2625,6 +2625,35 @@
   }
 }
 
+.banner-full-screen-wide-narrow-text-center-on {
+  position: relative;
+}
+.banner-full-screen-wide-narrow-text-center-on__title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 3.88em;
+}
+@media (max-width: 1250px) {
+  .banner-full-screen-wide-narrow-text-center-on__title {
+    font-size: 2.88em;
+  }
+}
+@media (max-width: 910px) {
+  .banner-full-screen-wide-narrow-text-center-on__title {
+    font-size: 1.88em;
+  }
+}
+@media (max-width: 600px) {
+  .banner-full-screen-wide-narrow-text-center-on__title {
+    font-size: 0.88em;
+  }
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0-modified | 20110126
    License: none (public domain)
