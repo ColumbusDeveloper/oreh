@@ -4,9 +4,7 @@
       &__slide {
             display: flex;
             flex-direction: column;
-            &_video {
-                  position: relative;
-            }
+            
       }
 
     
@@ -89,6 +87,10 @@
                   margin-top: -4px;
             }
 
+      }
+
+      &__imgbox {
+            position: relative;
       }
 
       &__play-icon {
