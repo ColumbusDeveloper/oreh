@@ -2654,6 +2654,90 @@
   }
 }
 
+.filter-block2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter-block2-text-icon {
+  display: flex;
+}
+.filter-block2-text-icon__text {
+  color: #1A2F3F;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 1.06em;
+  line-height: 1.25em;
+  margin-right: 5px;
+}
+
+.filter-block2-taste-select__label {
+  color: #1A2F3F;
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 1.17em;
+}
+.filter-block2-taste-select__select-block {
+  border: none;
+}
+
+.filter-block2-weight-select__label {
+  color: #1A2F3F;
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 1.17em;
+}
+.filter-block2-weight-select__select-block {
+  border: none;
+}
+
+.filter-block2-price-filter {
+  display: flex;
+  align-items: center;
+}
+.filter-block2-price-filter__label {
+  color: #1A2F3F;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 1.06em;
+  line-height: 1.25em;
+  margin-right: 5px;
+}
+
+.filter-block2-btn-box__btn-confirm {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #8A8A8A;
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 1em;
+}
+.filter-block2-btn-box__btn-confirm:hover {
+  background-color: #337D5A;
+  color: #fff;
+}
+.filter-block2-btn-box__btn-reject {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #8A8A8A;
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 1em;
+}
+.filter-block2-btn-box__btn-reject:hover {
+  background-color: #337D5A;
+  color: #fff;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0-modified | 20110126
    License: none (public domain)
@@ -3071,12 +3155,12 @@ textarea {
   box-sizing: border-box;
 }
 
-banner-full-screen-wide-narrow-text-center-on.scss body {
+body {
   max-width: 1920px;
   margin: 0 auto;
   font-size: 16px;
   overflow-x: hidden;
 }
-banner-full-screen-wide-narrow-text-center-on.scss body a {
+body a {
   text-decoration: none;
 }
