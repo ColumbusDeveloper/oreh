@@ -2668,6 +2668,11 @@
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width: 992px) {
+  .filter-block2 {
+    justify-content: space-around;
+  }
+}
 
 .filter-block2-text-icon {
   display: flex;
@@ -2691,6 +2696,11 @@
 .filter-block2-taste-select__select-block {
   border: none;
 }
+@media (max-width: 992px) {
+  .filter-block2-taste-select {
+    display: none;
+  }
+}
 
 .filter-block2-weight-select__label {
   color: #1A2F3F;
@@ -2701,6 +2711,11 @@
 }
 .filter-block2-weight-select__select-block {
   border: none;
+}
+@media (max-width: 992px) {
+  .filter-block2-weight-select {
+    display: none;
+  }
 }
 
 .filter-block2-price-filter {
@@ -2714,6 +2729,11 @@
   font-size: 1.06em;
   line-height: 1.25em;
   margin-right: 5px;
+}
+@media (max-width: 992px) {
+  .filter-block2-price-filter {
+    display: none;
+  }
 }
 
 .filter-block2-btn-box__btn-confirm {
@@ -2731,6 +2751,14 @@
   background-color: #337D5A;
   color: #fff;
 }
+@media (max-width: 540px) {
+  .filter-block2-btn-box__btn-confirm {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
 .filter-block2-btn-box__btn-reject {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -2745,6 +2773,14 @@
 .filter-block2-btn-box__btn-reject:hover {
   background-color: #337D5A;
   color: #fff;
+}
+@media (max-width: 540px) {
+  .filter-block2-btn-box__btn-reject {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
 .text-and-slider-box-slider-right__subtitle {

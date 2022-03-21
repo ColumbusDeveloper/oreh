@@ -3,6 +3,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @media (max-width:992px) {
+        justify-content: space-around;
+    }
 }
 
 .filter-block2-text-icon {
@@ -33,7 +36,11 @@
     &__select-block {
         border: none;
     }
+    @media (max-width:992px) {
+        display: none;
+    }
 }
+
 
 .filter-block2-weight-select {
 
@@ -48,6 +55,10 @@
     &__select-block {
         border: none;
     }
+
+    @media (max-width:992px) {
+        display: none;
+    }
 }
 
 .filter-block2-price-filter {
@@ -60,6 +71,10 @@
         font-size: 1.06em;
         line-height: 1.25em;
         margin-right: 5px;
+    }
+
+    @media (max-width:992px) {
+        display: none;
     }
 }
 
@@ -79,6 +94,13 @@
             background-color:#337D5A;
             color: #fff;
         }
+
+        @media (max-width:540px) {
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
     }
 
     &__btn-reject {
@@ -94,6 +116,13 @@
         &:hover{
             background-color:#337D5A ;
             color: #fff;
+        }
+
+        @media (max-width:540px) {
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
         }
     }
 }
