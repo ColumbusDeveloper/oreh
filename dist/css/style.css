@@ -2903,6 +2903,79 @@
   }
 }
 
+.img-box-3items-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.img-box-3items-row__first-item {
+  position: relative;
+}
+.img-box-3items-row__item {
+  padding: 10px;
+}
+.img-box-3items-row__icon-text-overlay-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 95%;
+}
+.img-box-3items-row__icon-text-box {
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+}
+.img-box-3items-row__paragraph {
+  padding: 15px;
+  width: calc(270px + 70 * (100vw - 374px) / 1546);
+}
+@media (max-width: 576px) {
+  .img-box-3items-row__paragraph {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.img-box-3items-row__second-item {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.img-box-3items-row__second-item-icon-and-text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img-box-3items-row__second-item-icon {
+  margin-bottom: 20px;
+}
+.img-box-3items-row__third-item {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.img-box-3items-row__third-item-icon-and-text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img-box-3items-row__third-item-icon {
+  margin-bottom: 20px;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0-modified | 20110126
    License: none (public domain)
