@@ -1974,6 +1974,24 @@
   }
 }
 
+.single-hidden-slider-box-arrows-on {
+  display: none;
+}
+@media (max-width: 1200px) {
+  .single-hidden-slider-box-arrows-on {
+    display: block;
+  }
+}
+
+.single-hidden-slider-box-arrows-on {
+  display: none;
+}
+@media (max-width: 1200px) {
+  .single-hidden-slider-box-arrows-on {
+    display: block;
+  }
+}
+
 .text-and-slider-box-slider-right__subtitle {
   color: #1A2F3F;
   font-family: "Raleway";
@@ -2304,6 +2322,15 @@
   top: -112px;
 }
 
+.single-hidden-slider-box-arrows-on {
+  display: none;
+}
+@media (max-width: 1200px) {
+  .single-hidden-slider-box-arrows-on {
+    display: block;
+  }
+}
+
 .multiple-slider-box-arrows-on {
   display: flex;
   flex-wrap: wrap;
@@ -2517,6 +2544,15 @@
   width: 20px;
   left: -3px;
   top: -112px;
+}
+
+.single-hidden-slider-box-arrows-on {
+  display: none;
+}
+@media (max-width: 1200px) {
+  .single-hidden-slider-box-arrows-on {
+    display: block;
+  }
 }
 
 .button-central-position {
