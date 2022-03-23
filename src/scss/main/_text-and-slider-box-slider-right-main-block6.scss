@@ -13,7 +13,7 @@
     }
 
     &__title {
-        padding-bottom: 50px;
+        padding-bottom: 30px;
         @media (max-width:430px) {
             font-size: 1.5em;
         }
@@ -24,7 +24,7 @@
 
     &__paragraph {
         padding-right: 50px;
-        padding-bottom: 50px;
+        padding-bottom: 30px;
         @media (max-width:992px) {
             padding-right: 0px;
             text-align: center;
