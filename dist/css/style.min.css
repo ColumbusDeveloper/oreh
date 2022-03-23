@@ -3302,6 +3302,39 @@
   }
 }
 
+.declaration-4items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.declaration-4items__item {
+  padding-top: 30px;
+  min-width: 192px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.declaration-4items__paragraph {
+  text-align: center;
+}
+
+.number-box {
+  display: flex;
+}
+.number-box__number {
+  color: #1A2F3F;
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 4.5em;
+}
+.number-box__unit {
+  align-items: flex-start;
+  color: #1A2F3F;
+  font-family: "Raleway";
+  font-weight: 900;
+  font-size: 1.125em;
+}
+
 .banner-full-screen-play-icon-main-block8 .video-box-text-and-icon-on__title {
   color: #fff;
   font-family: "Raleway";
