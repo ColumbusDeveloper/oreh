@@ -3215,6 +3215,26 @@
   top: -112px;
 }
 
+.button-central-position {
+  display: flex;
+  justify-content: center;
+}
+.button-central-position__text {
+  display: inline-block;
+  padding: 7px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #337D5A;
+  color: #337D5A;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 0.94em;
+  line-height: 1.1em;
+}
+.button-central-position__text:hover {
+  background-color: violet;
+}
+
 .banner-full-screen-play-icon-main-block8 .video-box-text-and-icon-on__title {
   color: #fff;
   font-family: "Raleway";
