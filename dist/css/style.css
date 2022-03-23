@@ -2758,6 +2758,33 @@
   }
 }
 
+.text-box-title-and-single-paragraph {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text-box-title-and-single-paragraph__title {
+  margin-bottom: 20px;
+}
+
+.title-dark {
+  color: #1A2F3F;
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 2.8em;
+  line-height: 3.3 em;
+}
+
+.paragraph-dark {
+  color: #1A2F3F;
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 1.56em;
+}
+
 .banner-full-screen-play-icon-main-block8 .video-box-text-and-icon-on__title {
   color: #fff;
   font-family: "Raleway";
