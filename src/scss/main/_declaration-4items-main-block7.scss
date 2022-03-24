@@ -1,0 +1,41 @@
+.declaration-4items {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+    &__item {
+        padding-top: 30px;
+        min-width: 192px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    &__paragraph {
+        text-align: center;
+    }
+}
+
+.number-box {
+    display: flex;
+    &__number {
+        color:#1A2F3F;
+        font-family:"Montserrat";
+        font-weight: 800;
+        font-size: 4.5em;
+       
+    }
+
+    &__unit {
+        align-items: flex-start;
+        color:#1A2F3F;
+        font-family:"Raleway";
+        font-weight: 900;
+        font-size: 1.125em;
+        
+    }
+}
+

@@ -7,37 +7,47 @@
 @import "general/addressbox";
 @import "general/footer";
 @import "general/gallery-text-top-left";
-@import "mainPage/galleryslider";
-@import "mainPage/imgbox";
-@import "productionPage/productionvideotop";
-@import "productionPage/text-box-title-and-3items";
-@import "productionPage/declaration-4items";
-@import "productionPage/text-box-title-and-single-paragraph";
-@import "productionPage/box-2items-left-big";
-@import "productionPage/video-box-text-and-icon-on";
-@import "productionPage/img-box-3items";
-@import "productionPage/banner-full-screen-wide-text-and-icon-on";
-@import "productionPage/text-box-title-and-single-paragraph-left";
-@import "productionPage/slider-text-under-img";
-@import "manufacturerPage/video-box-text-and-icon-on-bottom";
-@import "manufacturerPage/multiple-slider-box-arrows-on";
-@import "manufacturerPage/single-hidden-slider-box-arrows-on";
-@import "manufacturerPage/multiple-slider-box-arrows-on-lower-level";
-@import "manufacturerPage/single-hidden-slider-box-arrows-on-lower-level";
-@import "manufacturerPage/button-central-position";
-@import "manufacturerPage/text-and-slider-box-slider-right";
-@import "manufacturerPage/video-box-text-and-icon-between-bottom-text-italic";
-@import "manufacturerPage/img-box-3items-row";
-@import "manufacturerPage/banner-full-screen-wide-text-and-icon-top-on";
-@import "manufacturerPage/slider-text-under-img-nav-top-right";
-@import "manufacturerPage/text-box-title-and-single-paragraph-left-bottom";
-@import "manufacturerPage/section-address-map";
+@import "galleryPage/galleryslider";
+@import "galleryPage/imgbox";
+@import "aboutPage/productionvideotop";
+@import "aboutPage/text-box-title-and-3items";
+@import "aboutPage/declaration-4items";
+@import "aboutPage/text-box-title-and-single-paragraph";
+@import "aboutPage/box-2items-left-big";
+@import "aboutPage/video-box-text-and-icon-on";
+@import "aboutPage/img-box-3items";
+@import "aboutPage/banner-full-screen-wide-text-and-icon-on";
+@import "aboutPage/text-box-title-and-single-paragraph-left";
+@import "aboutPage/slider-text-under-img";
+
 @import "catalogPage/banner-full-screen-wide-narrow-text-center-on";
+@import "catalogPage/filter-block2";
+@import "catalogPage/multislider-block3";
+@import "catalogPage/multislider-block4";
+@import "catalogPage/text-and-slider-box-slider-right-block6";
+
+
+
+@import "main/banner-full-screen-block1";
+@import "main/text-box-title-and-single-paragraph-main-block2";
+@import "main/multislider-main-block3";
+@import "main/multislider-main-block4";
+@import "main/button-central-position-main-block5";
+@import "main/text-and-slider-box-slider-right-main-block6";
+@import "main/declaration-4items-main-block7";
+@import "main/banner-full-screen-play-icon-main-block8";
+@import "main/text-box-title-and-single-paragraph-main-block9";
+@import "main/img-box-3items-in-row-main-block10";
+@import "main/banner-full-screen-wide-text-and-icon-on-top-main-block11";
+@import "main/text-box-title-and-single-paragraph-left-main-block12";
+@import "main/slider-text-under-img-navigation-top-right-main-block13";
+
+
 @import "general/reset";
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
 @import "general/veriables";
 
-banner-full-screen-wide-narrow-text-center-on.scss
+
 
 
 body {
