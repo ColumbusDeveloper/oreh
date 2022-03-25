@@ -266,6 +266,16 @@ swiperNextSlider5.addEventListener('click', () => {
   slider5.slideNext();
 })
 
+const swiperPrevSlider6 = document.getElementById('swiperPrev6')
+const swiperNextSlider6 = document.getElementById('swiperNext6')
+
+swiperPrevSlider6.addEventListener('click', () => {
+  slider6.slidePrev();
+})
+swiperNextSlider6.addEventListener('click', () => {
+  slider6.slideNext();
+})
+
 
   
 console.log("Hello!!!");
