@@ -3299,16 +3299,16 @@
   transform: translate(-50%, -50%);
 }
 
-.slider6 {
+.slider5 {
   height: 100%;
 }
 
-.slider-button-prev6 {
+.slider-button-prev5 {
   background-color: #1A2F3F;
   visibility: hidden;
 }
 
-.slider-button-next6 {
+.slider-button-next5 {
   background-color: blue;
   visibility: hidden;
 }
