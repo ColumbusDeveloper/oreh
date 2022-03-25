@@ -200,6 +200,45 @@ let slider5 = new Swiper ('.slider5', {
   
 
 })
+
+let slider6 = new Swiper ('.slider6', {
+  loop: true,
+  
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  
+
+  slidesPerView:3,
+  
+  breakpoints: {
+    320:{
+      slidesPerView:1,
+    },
+
+    768:{
+      slidesPerView:2,
+    },
+
+    992:{
+      slidesPerView:3,
+    },
+
+  },
+
+  spaceBetween:30,
+  
+  modules: [Navigation, Pagination],
+
+
+  
+
+  
+  
+
+})
   
   
   
@@ -266,8 +305,8 @@ swiperNextSlider5.addEventListener('click', () => {
   slider5.slideNext();
 })
 
-const swiperPrevSlider6 = document.getElementById('swiperPrev6')
-const swiperNextSlider6 = document.getElementById('swiperNext6')
+const swiperPrevSlider6 = document.getElementById('swiperPrev5')
+const swiperNextSlider6 = document.getElementById('swiperNext5')
 
 swiperPrevSlider6.addEventListener('click', () => {
   slider6.slidePrev();
