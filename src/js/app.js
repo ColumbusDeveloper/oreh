@@ -275,49 +275,59 @@ if (burgerIcon) {
 }
 
 
-const swiperPrev = document.getElementById('swiperPrev')
-const swiperNext = document.getElementById('swiperNext')
+// const swiperPrev = document.getElementById('swiperPrev');
+// const swiperNext = document.getElementById('swiperNext');
 
-swiperPrev.addEventListener('click', () => {
-  slider2.slidePrev();
-})
-swiperNext.addEventListener('click', () => {
-  slider2.slideNext();
-})
+// swiperPrev.addEventListener('click', () => {
+//   slider2.slidePrev();
+// })
+// swiperNext.addEventListener('click', () => {
+//   slider2.slideNext();
+// })
 
-const swiperPrevSlider4 = document.getElementById('swiperPrev')
-const swiperNextSlider4 = document.getElementById('swiperNext')
+// const swiperPrevSlider4 = document.getElementById('swiperPrev');
+// const swiperNextSlider4 = document.getElementById('swiperNext');
 
-swiperPrevSlider4.addEventListener('click', () => {
-  slider4.slidePrev();
-})
-swiperNextSlider4.addEventListener('click', () => {
-  slider4.slideNext();
-})
+// swiperPrevSlider4.addEventListener('click', () => { slider4.slidePrev();});
+// swiperNextSlider4.addEventListener('click', () => { slider4.slideNext();});
 
-const swiperPrevSlider5 = document.getElementById('swiperPrev5')
-const swiperNextSlider5 = document.getElementById('swiperNext5')
 
-swiperPrevSlider5.addEventListener('click', () => {
-  slider5.slidePrev();
-})
-swiperNextSlider5.addEventListener('click', () => {
-  slider5.slideNext();
-})
 
-const swiperPrevSlider6 = document.getElementById('swiperPrev5')
-const swiperNextSlider6 = document.getElementById('swiperNext5')
+console.log("Hello!!!");
 
-swiperPrevSlider6.addEventListener('click', () => {
-  slider6.slidePrev();
-})
-swiperNextSlider6.addEventListener('click', () => {
-  slider6.slideNext();
-})
+const swiperPrevSlider7 = document.getElementById('swiperPrev6');
+const swiperNextSlider8 = document.getElementById('swiperNext6');
+
+swiperPrevSlider7.addEventListener('click', () => { slider6.slidePrev();});
+swiperNextSlider8.addEventListener('click', () => { slider6.slideNext();});
+
+
+console.log("Hello!!!");
+
+const swiperPrevSlider5 = document.getElementById('swiperPrev5');
+const swiperNextSlider6 = document.getElementById('swiperNext5');
+
+swiperPrevSlider5.addEventListener('click', () => { slider5.slidePrev();});
+swiperNextSlider6.addEventListener('click', () => { slider5.slideNext();});
+
+
+const icon = document.getElementById('swiperPrev6');
+
+if (icon) {
+
+icon.addEventListener("click", function(e) {
+  
+  icon.classList.toggle("_active");
+  
+}) 
+}
+
+
+
 
 
   
-console.log("Hello!!!");
+
 
 
 
