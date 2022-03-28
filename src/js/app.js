@@ -248,11 +248,10 @@ const iconMenu = document.querySelector(".menu__btn");
 const menuBody=document.querySelector(".menu__box");
 if (iconMenu) {
 
-iconMenu.addEventListener("click", function(e) {
+  iconMenu.addEventListener("click", function(e) {
   document.body.classList.toggle("_lock");
   iconMenu.classList.toggle("_active");
-  menuBody.classList.toggle("_active");
-}) 
+  menuBody.classList.toggle("_active");}) 
 }
   
   
