@@ -1,79 +1,171 @@
+.img-choice-info-box-payment-block2 {
+    
+}
 .img-choice-info-box {
 
-    &__choice-btn-box {
-    }
+		&__choice-btn-box {
+            padding-top: 25px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            @media (max-width:1200px) {
+                align-items: center;
+                flex-direction: column;
+            }
+		}
 
-    &__choice-btn-item {
+		&__choice-btn-item {
 
-        &_item1 {
-        }
+			&_item1 {
+                
+			}
 
-        &_item2 {
-        }
+			&_item2 {
+                
+			}
 
-        &_item3 {
-        }
-    }
+			&_item3 {
+                
+			}
+		}
 
-    &__btn {
-    }
+		&__btn {
+            margin-top: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-right: 15px;
+            padding-left: 15px;
+            height: 30px;
+		}
 
-    &__symbol {
-    }
+		&__symbol {
+		}
 
-    &__text {
-    }
+		&__symbol-img {
 
-    &__underline {
-    }
+			&_item1-bright {
+			}
 
-    &__img-info-box {
-    }
+			&_item1-fade {
+                filter: brightness(1.5);
+			}
 
-    &__img-info-box-item {
+			&_item2-bright {
+                filter: brightness(0.3);
+			}
 
-        &_item1 {
-        }
+			&_item2-fade {
+                filter: brightness(0.9);
+			}
 
-        &_item2 {
-        }
+			&_item3-bright {
+                filter: brightness(0.3);
+			}
 
-        &_item3 {
-        }
-    }
+			&_item3-fade {
+                filter: brightness(0.9);
+			}
+		}
 
-    &__img-info-box-item-text {
-    }
+		&__text {
+            margin-left: 30px;
+            color:#000;
+            font-family:"Raleway";
+            font-weight: 800;
+            font-size: 1.25em;
+            line-height: 1.44em;
+		}
 
-    &__subtitle {
-    }
+		&__underline {
+            height: 5px;
+            width: 100%;
+            background-color: #337D5A;
+            margin-top: 10px;
+		}
 
-    &__symbol-subtitle-block-item {
-    }
+		&__img-info-box {
+            padding-top: 50px;
+		}
 
-    &__symbol-subtitle-box {
-    }
+		&__img-info-box-item {
 
-    &__symbol-subtitle-box-icon {
-    }
+			&_item1 {
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+                flex-wrap: wrap;
+			}
 
-    &__symbol-subtitle-box-subtitle-italic {
-    }
+			&_item2 {
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+                flex-wrap: wrap;
+			}
 
-    &__symbol-subtitle-block-paragraph {
-    }
+			&_item3 {
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+                flex-wrap: wrap;
+			}
+		}
 
-    &__img-info-box-item-pic-box {
-    }
+		&__img-info-box-item-text {
+		}
 
-    &__img-info-box-item-pic {
-    }
+		&__subtitle {
+            color:#000;
+            font-family:"Raleway";
+            font-weight: 800;
+            font-size: 1.25em;
+            line-height: 3em;
+		}
+
+		&__symbol-subtitle-block-item {
+            margin-bottom: 30px;
+		}
+
+		&__symbol-subtitle-box {
+            display: flex;
+            align-items: center;
+		}
+
+		&__symbol-subtitle-box-icon {
+		}
+
+		&__symbol-subtitle-box-subtitle-italic {
+            color:#1A2F3F;
+            margin-left: 20px;
+            font-family:"Raleway";
+            font-weight: 600;
+            font-style: italic;
+            font-size: 1em;
+            line-height: 1.5em;
+		}
+
+		&__symbol-subtitle-block-paragraph {
+            color:#1A2F3F;
+            font-family:"Raleway";
+            font-weight: 500;
+            font-size: 1em;
+            line-height: 1.5em;
+		}
+
+		&__img-info-box-item-pic-box {
+            display: flex;
+            justify-content: flex-end;
+            @media (max-width:1200px) {
+                justify-content: center;
+            }
+		}
+
+		&__img-info-box-item-pic {
+		}
 }
 
-.img-choice-info-box__symbol-img {
-    opacity: 0.5;
+.hidden {
+    display: none;
 }
 
-.img-choice-info-box__choice-btn-item_item2 .img-choice-info-box__symbol-img {
-    opacity: 0.5;
-}
