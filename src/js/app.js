@@ -274,59 +274,75 @@ if (burgerIcon) {
 }
 
 
-console.log("Hello!!!");
 
-const swiperPrev = document.getElementById('swiperPrev');
-const swiperNext = document.getElementById('swiperNext');
-const swiperPrevSlider4 = document.getElementById('swiperPrev');
-const swiperNextSlider4 = document.getElementById('swiperNext');
 
-swiperPrev.addEventListener('click', () => {slider2.slidePrev();})
-swiperNext.addEventListener('click', () => {slider2.slideNext();})
-swiperPrevSlider4.addEventListener('click', () => { slider4.slidePrev();});
-swiperNextSlider4.addEventListener('click', () => { slider4.slideNext();});
+
+
 
 
 const btn1 = document.querySelector(".img-choice-info-box__choice-btn-item_item1");
-const btn2 = document.querySelector(".img-choice-info-box__choice-btn-item_item2");
-const btn3 = document.querySelector(".img-choice-info-box__choice-btn-item_item3");
-const slide1 =document.querySelector(".img-choice-info-box__img-info-box-item_item1");
-const slide2 =document.querySelector(".img-choice-info-box__img-info-box-item_item2");
-const slide3 =document.querySelector(".img-choice-info-box__img-info-box-item_item3");
-
-function btn1Click () {
-  slide1.classList.add("active");
-  slide1.classList.replace("none", "active");
-  slide2.classList.add("none");
-  slide3.classList.add("none");
+if (btn1) {
+  
+  btn1.addEventListener("click", function btn1Click () {
+    const slide1 =document.querySelector(".img-choice-info-box__img-info-box-item_item1");
+    const slide2 =document.querySelector(".img-choice-info-box__img-info-box-item_item2");
+    const slide3 =document.querySelector(".img-choice-info-box__img-info-box-item_item3");
+    slide1.classList.add("active");
+    slide1.classList.replace("none", "active");
+    slide2.classList.add("none");
+    slide3.classList.add("none");
+  }) 
 }
 
-function btn2Click () {
+
+const btn2 = document.querySelector(".img-choice-info-box__choice-btn-item_item2");
+if (btn2) {
+  
+  btn2.addEventListener("click", function btn2Click () {
+  const slide1 =document.querySelector(".img-choice-info-box__img-info-box-item_item1");
+  const slide2 =document.querySelector(".img-choice-info-box__img-info-box-item_item2");
+  const slide3 =document.querySelector(".img-choice-info-box__img-info-box-item_item3");
   slide1.classList.add("none");
   slide2.classList.add("active");
   slide2.classList.replace("none", "active");
   slide3.classList.add("none");
+  }) 
 }
 
-function btn3Click () {
-  slide1.classList.add("none");
-  slide2.classList.add("none");
-  slide3.classList.add("active");
-  slide3.classList.replace("none", "active");
+
+const btn3 = document.querySelector(".img-choice-info-box__choice-btn-item_item3");
+if (btn3) {
+  
+  btn3.addEventListener("click", function btn3Click () {
+    const slide1 =document.querySelector(".img-choice-info-box__img-info-box-item_item1");
+    const slide2 =document.querySelector(".img-choice-info-box__img-info-box-item_item2");
+    const slide3 =document.querySelector(".img-choice-info-box__img-info-box-item_item3");
+    slide1.classList.add("none");
+    slide2.classList.add("none");
+    slide3.classList.add("active");
+    slide3.classList.replace("none", "active");
+  }) 
 }
 
-btn1.addEventListener('click', btn1Click);
-btn2.addEventListener('click', btn2Click);
-btn3.addEventListener('click', btn3Click);
 
 
 
 
   
+const swiperPrev = document.getElementById('swiperPrev');
+swiperPrev.addEventListener('click', () => {slider2.slidePrev();})
+
+const swiperNext = document.getElementById('swiperNext');
+swiperNext.addEventListener('click', () => {slider2.slideNext();})
+
+const swiperPrevSlider4 = document.getElementById('swiperPrev');
+swiperPrevSlider4.addEventListener('click', () => { slider4.slidePrev();});
+
+const swiperNextSlider4 = document.getElementById('swiperNext');
+swiperNextSlider4.addEventListener('click', () => { slider4.slideNext();});
 
 
-
-
+console.log("Hello!!!!!!!!!!!!!!");
 
 
 
