@@ -274,43 +274,17 @@ if (burgerIcon) {
 }
 
 
+console.log("Hello!!!");
+
 const swiperPrev = document.getElementById('swiperPrev');
 const swiperNext = document.getElementById('swiperNext');
-
-swiperPrev.addEventListener('click', () => {
-  slider2.slidePrev();
-})
-swiperNext.addEventListener('click', () => {
-  slider2.slideNext();
-})
-
-
-
 const swiperPrevSlider4 = document.getElementById('swiperPrev');
 const swiperNextSlider4 = document.getElementById('swiperNext');
 
+swiperPrev.addEventListener('click', () => {slider2.slidePrev();})
+swiperNext.addEventListener('click', () => {slider2.slideNext();})
 swiperPrevSlider4.addEventListener('click', () => { slider4.slidePrev();});
 swiperNextSlider4.addEventListener('click', () => { slider4.slideNext();});
-
-
-
-console.log("Hello!!!");
-
-const swiperPrevSlider7 = document.getElementById('swiperPrev6');
-const swiperNextSlider8 = document.getElementById('swiperNext6');
-
-swiperPrevSlider7.addEventListener('click', () => { slider6.slidePrev();});
-swiperNextSlider8.addEventListener('click', () => { slider6.slideNext();});
-
-
-console.log("Hello!!!");
-
-const swiperPrevSlider5 = document.getElementById('swiperPrev5');
-const swiperNextSlider6 = document.getElementById('swiperNext5');
-
-swiperPrevSlider5.addEventListener('click', () => { slider5.slidePrev();});
-swiperNextSlider6.addEventListener('click', () => { slider5.slideNext();});
-
 
 
 const btn1 = document.querySelector(".img-choice-info-box__choice-btn-item_item1");

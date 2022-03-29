@@ -17,15 +17,15 @@
 		&__choice-btn-item {
 
 			&_item1 {
-                
+                cursor: pointer;
 			}
 
 			&_item2 {
-                
+                cursor: pointer;
 			}
 
 			&_item3 {
-                
+                cursor: pointer;
 			}
 		}
 
@@ -166,6 +166,14 @@
 }
 
 .hidden {
+    display: none;
+}
+
+.img-choice-info-box__img-info-box .active {
+    display: block;
+}
+
+.img-choice-info-box__img-info-box .none {
     display: none;
 }
 

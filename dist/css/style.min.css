@@ -3544,6 +3544,15 @@
     flex-direction: column;
   }
 }
+.img-choice-info-box__choice-btn-item_item1 {
+  cursor: pointer;
+}
+.img-choice-info-box__choice-btn-item_item2 {
+  cursor: pointer;
+}
+.img-choice-info-box__choice-btn-item_item3 {
+  cursor: pointer;
+}
 .img-choice-info-box__btn {
   margin-top: 25px;
   display: flex;
@@ -3643,6 +3652,14 @@
   }
 }
 .hidden {
+  display: none;
+}
+
+.img-choice-info-box__img-info-box .active {
+  display: block;
+}
+
+.img-choice-info-box__img-info-box .none {
   display: none;
 }
 
