@@ -313,7 +313,37 @@ swiperNextSlider6.addEventListener('click', () => { slider5.slideNext();});
 
 
 
+const btn1 = document.querySelector(".img-choice-info-box__choice-btn-item_item1");
+const btn2 = document.querySelector(".img-choice-info-box__choice-btn-item_item2");
+const btn3 = document.querySelector(".img-choice-info-box__choice-btn-item_item3");
+const slide1 =document.querySelector(".img-choice-info-box__img-info-box-item_item1");
+const slide2 =document.querySelector(".img-choice-info-box__img-info-box-item_item2");
+const slide3 =document.querySelector(".img-choice-info-box__img-info-box-item_item3");
 
+function btn1Click () {
+  slide1.classList.add("active");
+  slide1.classList.replace("none", "active");
+  slide2.classList.add("none");
+  slide3.classList.add("none");
+}
+
+function btn2Click () {
+  slide1.classList.add("none");
+  slide2.classList.add("active");
+  slide2.classList.replace("none", "active");
+  slide3.classList.add("none");
+}
+
+function btn3Click () {
+  slide1.classList.add("none");
+  slide2.classList.add("none");
+  slide3.classList.add("active");
+  slide3.classList.replace("none", "active");
+}
+
+btn1.addEventListener('click', btn1Click);
+btn2.addEventListener('click', btn2Click);
+btn3.addEventListener('click', btn3Click);
 
 
 
