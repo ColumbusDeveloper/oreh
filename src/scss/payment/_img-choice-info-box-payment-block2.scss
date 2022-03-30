@@ -174,9 +174,24 @@
     display: flex;
 }
 
+.img-choice-info-box__choice-btn-item_item .active {
+      display: block;
+      display: flex;
+  }
+
 .img-choice-info-box__img-info-box .none {
     display: none;
 }
 
+.img-choice-info-box__choice-btn-item_item .none {
+      display: none;
+}
 
+.img-choice-info-box__symbol .active {
+      display: block;
+}
+
+.img-choice-info-box__symbol .none {
+      display: none;
+}
 
