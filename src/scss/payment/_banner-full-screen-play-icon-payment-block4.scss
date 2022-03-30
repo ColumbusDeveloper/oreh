@@ -1,0 +1,31 @@
+.banner-full-screen-play-icon-payment-block4 .video-box-text-and-icon-on__title {
+    color:#fff;
+    font-family:"Raleway";
+    font-weight: 800;
+    font-size: 2.81em;
+    line-height: 1.3em;
+
+    @media (max-width:1380px) {
+        
+        font-size: 2.875em;
+    }
+
+    @media (max-width:1050px) {
+        
+        font-size: 1.875em;
+    }
+
+    @media (max-width:680px) {
+        
+        font-size: 0.875em;
+    }
+}
+
+.banner-full-screen-play-icon-payment-block4 .video-box-text-and-icon-on__play-icon_icon-between {
+    margin-top: 15px;
+
+    @media (max-width:992px) {
+        
+        width: 10%;
+    }
+}
