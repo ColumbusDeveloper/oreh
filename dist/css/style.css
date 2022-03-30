@@ -3714,6 +3714,85 @@
   }
 }
 
+.banner-full-screen-wholesale-block1 .banner-full-screen-wide-text-and-icon-on__title {
+  color: #fff;
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 3.875em;
+}
+@media (max-width: 1380px) {
+  .banner-full-screen-wholesale-block1 .banner-full-screen-wide-text-and-icon-on__title {
+    font-size: 2.875em;
+  }
+}
+@media (max-width: 1050px) {
+  .banner-full-screen-wholesale-block1 .banner-full-screen-wide-text-and-icon-on__title {
+    font-size: 1.875em;
+  }
+}
+@media (max-width: 680px) {
+  .banner-full-screen-wholesale-block1 .banner-full-screen-wide-text-and-icon-on__title {
+    font-size: 0.875em;
+  }
+}
+
+.banner-full-screen-wholesale-block1 .banner-full-screen-wide-text-and-icon-on__paragraph {
+  color: #fff;
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 1.56em;
+  line-height: 1.82em;
+}
+@media (max-width: 1380px) {
+  .banner-full-screen-wholesale-block1 .banner-full-screen-wide-text-and-icon-on__paragraph {
+    font-size: 1.2em;
+  }
+}
+@media (max-width: 850px) {
+  .banner-full-screen-wholesale-block1 .banner-full-screen-wide-text-and-icon-on__paragraph {
+    font-size: 0.9em;
+  }
+}
+@media (max-width: 680px) {
+  .banner-full-screen-wholesale-block1 .banner-full-screen-wide-text-and-icon-on__paragraph {
+    font-size: 0.9em;
+  }
+}
+@media (max-width: 640px) {
+  .banner-full-screen-wholesale-block1 .banner-full-screen-wide-text-and-icon-on__paragraph {
+    font-size: 0.8em;
+  }
+}
+@media (max-width: 560px) {
+  .banner-full-screen-wholesale-block1 .banner-full-screen-wide-text-and-icon-on__paragraph {
+    font-size: 0.7em;
+  }
+}
+@media (max-width: 560px) {
+  .banner-full-screen-wholesale-block1 .banner-full-screen-wide-text-and-icon-on__paragraph {
+    font-size: 0.7em;
+  }
+}
+@media (max-width: 500px) {
+  .banner-full-screen-wholesale-block1 .banner-full-screen-wide-text-and-icon-on__paragraph {
+    font-size: 0.6em;
+  }
+}
+@media (max-width: 430px) {
+  .banner-full-screen-wholesale-block1 .banner-full-screen-wide-text-and-icon-on__paragraph {
+    font-size: 0.5em;
+  }
+}
+
+.banner-full-screen-wholesale-block1 .banner-full-screen-wide-text-and-icon-on__icon {
+  margin-top: 15px;
+}
+@media (max-width: 992px) {
+  .banner-full-screen-wholesale-block1 .banner-full-screen-wide-text-and-icon-on__icon {
+    width: 10%;
+  }
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0-modified | 20110126
    License: none (public domain)
