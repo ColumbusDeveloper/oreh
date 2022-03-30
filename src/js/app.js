@@ -200,6 +200,45 @@ let slider5 = new Swiper ('.slider5', {
   
 
 })
+
+let slider6 = new Swiper ('.slider6', {
+  loop: true,
+  
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  
+
+  slidesPerView:3,
+  
+  breakpoints: {
+    320:{
+      slidesPerView:1,
+    },
+
+    768:{
+      slidesPerView:2,
+    },
+
+    992:{
+      slidesPerView:3,
+    },
+
+  },
+
+  spaceBetween:30,
+  
+  modules: [Navigation, Pagination],
+
+
+  
+
+  
+  
+
+})
   
   
   
@@ -209,11 +248,10 @@ const iconMenu = document.querySelector(".menu__btn");
 const menuBody=document.querySelector(".menu__box");
 if (iconMenu) {
 
-iconMenu.addEventListener("click", function(e) {
+  iconMenu.addEventListener("click", function(e) {
   document.body.classList.toggle("_lock");
   iconMenu.classList.toggle("_active");
-  menuBody.classList.toggle("_active");
-}) 
+  menuBody.classList.toggle("_active");}) 
 }
   
   
@@ -236,42 +274,169 @@ if (burgerIcon) {
 }
 
 
-const swiperPrev = document.getElementById('swiperPrev')
-const swiperNext = document.getElementById('swiperNext')
 
-swiperPrev.addEventListener('click', () => {
-  slider2.slidePrev();
-})
-swiperNext.addEventListener('click', () => {
-  slider2.slideNext();
-})
+const btn1 = document.querySelector(".img-choice-info-box__choice-btn-item_item1");
+if (btn1) {
+  
+  btn1.addEventListener("click", function btn1Click () {
+    const slide1 =document.querySelector(".img-choice-info-box__img-info-box-item_item1");
+    const slide2 =document.querySelector(".img-choice-info-box__img-info-box-item_item2");
+    const slide3 =document.querySelector(".img-choice-info-box__img-info-box-item_item3");
 
-const swiperPrevSlider4 = document.getElementById('swiperPrev')
-const swiperNextSlider4 = document.getElementById('swiperNext')
+    const underline1 =document.querySelector(".img-choice-info-box__underline1");
+    const underline2 =document.querySelector(".img-choice-info-box__underline2");
+    const underline3 =document.querySelector(".img-choice-info-box__underline3");
 
-swiperPrevSlider4.addEventListener('click', () => {
-  slider4.slidePrev();
-})
-swiperNextSlider4.addEventListener('click', () => {
-  slider4.slideNext();
-})
+    const iconBright1 =document.querySelector(".img-choice-info-box__symbol-img_item1-bright");
+    const iconBright2 =document.querySelector(".img-choice-info-box__symbol-img_item2-bright");
+    const iconBright3 =document.querySelector(".img-choice-info-box__symbol-img_item3-bright");
 
-const swiperPrevSlider5 = document.getElementById('swiperPrev5')
-const swiperNextSlider5 = document.getElementById('swiperNext5')
+    const iconFade1 =document.querySelector(".img-choice-info-box__symbol-img_item1-fade");
+    const iconFade2 =document.querySelector(".img-choice-info-box__symbol-img_item2-fade");
+    const iconFade3 =document.querySelector(".img-choice-info-box__symbol-img_item3-fade");
 
-swiperPrevSlider5.addEventListener('click', () => {
-  slider5.slidePrev();
-})
-swiperNextSlider5.addEventListener('click', () => {
-  slider5.slideNext();
-})
+    
+    slide1.classList.add("active");
+    slide1.classList.replace("none", "active");
+    slide2.classList.add("none");
+    slide3.classList.add("none");
+
+    underline1.classList.add("active");
+    underline1.classList.replace("none", "active");
+    underline2.classList.add("none");
+    underline3.classList.add("none");
+
+    iconBright1.classList.add("active"); 
+    iconBright1.classList.replace("none", "active");
+    iconBright2.classList.add("none");
+    iconBright3.classList.add("none");
+
+    iconFade1.classList.add("none"); 
+    iconFade1.classList.replace("active", "none");
+    iconFade2.classList.add("active");
+    iconFade2.classList.replace("none", "active");
+    iconFade3.classList.add("active");
+    iconFade3.classList.replace("none", "active");
+
+  }) 
+}
+
+
+const btn2 = document.querySelector(".img-choice-info-box__choice-btn-item_item2");
+if (btn2) {
+  
+  btn2.addEventListener("click", function btn2Click () {
+  const slide1 =document.querySelector(".img-choice-info-box__img-info-box-item_item1");
+  const slide2 =document.querySelector(".img-choice-info-box__img-info-box-item_item2");
+  const slide3 =document.querySelector(".img-choice-info-box__img-info-box-item_item3");
+
+  const underline1 =document.querySelector(".img-choice-info-box__underline1");
+  const underline2 =document.querySelector(".img-choice-info-box__underline2");
+  const underline3 =document.querySelector(".img-choice-info-box__underline3");
+
+  const iconBright1 =document.querySelector(".img-choice-info-box__symbol-img_item1-bright");
+  const iconBright2 =document.querySelector(".img-choice-info-box__symbol-img_item2-bright");
+  const iconBright3 =document.querySelector(".img-choice-info-box__symbol-img_item3-bright");
+
+  const iconFade1 =document.querySelector(".img-choice-info-box__symbol-img_item1-fade");
+  const iconFade2 =document.querySelector(".img-choice-info-box__symbol-img_item2-fade");
+  const iconFade3 =document.querySelector(".img-choice-info-box__symbol-img_item3-fade");
+
+  slide1.classList.add("none");
+  slide2.classList.add("active");
+  slide2.classList.replace("none", "active");
+  slide3.classList.add("none");
+
+  underline1.classList.add("none");
+  underline2.classList.add("active");
+  underline2.classList.replace("none", "active");
+  underline3.classList.add("none");
+
+  iconBright1.classList.add("none"); 
+  iconBright1.classList.replace("active", "none");
+  iconBright2.classList.add("active");
+  iconBright2.classList.replace("none", "active");
+  iconBright3.classList.add("none");
+  iconBright3.classList.replace("active", "none");
+
+  iconFade1.classList.add("active"); 
+  iconFade1.classList.replace("none", "active");
+  iconFade2.classList.add("none");
+  iconFade2.classList.replace("active", "none");
+  iconFade3.classList.add("active"); 
+  iconFade3.classList.replace("none", "active");
+
+
+  }) 
+}
+
+
+const btn3 = document.querySelector(".img-choice-info-box__choice-btn-item_item3");
+if (btn3) {
+  
+  btn3.addEventListener("click", function btn3Click () {
+    const slide1 =document.querySelector(".img-choice-info-box__img-info-box-item_item1");
+    const slide2 =document.querySelector(".img-choice-info-box__img-info-box-item_item2");
+    const slide3 =document.querySelector(".img-choice-info-box__img-info-box-item_item3");
+
+    const underline1 =document.querySelector(".img-choice-info-box__underline1");
+    const underline2 =document.querySelector(".img-choice-info-box__underline2");
+    const underline3 =document.querySelector(".img-choice-info-box__underline3");
+
+    slide1.classList.add("none");
+    slide2.classList.add("none");
+    slide3.classList.add("active");
+    slide3.classList.replace("none", "active");
+
+    underline1.classList.add("none");
+    underline2.classList.add("none");
+    underline3.classList.add("active");
+    underline3.classList.replace("none", "active");
+
+    const iconBright1 =document.querySelector(".img-choice-info-box__symbol-img_item1-bright");
+    const iconBright2 =document.querySelector(".img-choice-info-box__symbol-img_item2-bright");
+    const iconBright3 =document.querySelector(".img-choice-info-box__symbol-img_item3-bright");
+
+    const iconFade1 =document.querySelector(".img-choice-info-box__symbol-img_item1-fade");
+    const iconFade2 =document.querySelector(".img-choice-info-box__symbol-img_item2-fade");
+    const iconFade3 =document.querySelector(".img-choice-info-box__symbol-img_item3-fade");
+
+    iconBright1.classList.add("none"); 
+    iconBright1.classList.replace("active", "none");
+    iconBright2.classList.add("none"); 
+    iconBright2.classList.replace("active", "none");
+    iconBright3.classList.add("active"); 
+    iconBright3.classList.replace("none", "active");
+
+    iconFade1.classList.add("active"); 
+    iconFade1.classList.replace("none", "active");
+    iconFade2.classList.add("active"); 
+    iconFade2.classList.replace("none", "active");
+    iconFade3.classList.add("none"); 
+    iconFade3.classList.replace("active", "none");
+
+  }) 
+}
+
+
+
 
 
   
-console.log("Hello!!!");
+const swiperPrev = document.getElementById('swiperPrev');
+swiperPrev.addEventListener('click', () => {slider2.slidePrev();})
+
+const swiperNext = document.getElementById('swiperNext');
+swiperNext.addEventListener('click', () => {slider2.slideNext();})
+
+const swiperPrevSlider4 = document.getElementById('swiperPrev');
+swiperPrevSlider4.addEventListener('click', () => { slider4.slidePrev();});
+
+const swiperNextSlider4 = document.getElementById('swiperNext');
+swiperNextSlider4.addEventListener('click', () => { slider4.slideNext();});
 
 
-
+console.log("Hello!!!!!!!!!!!!!!");
 
 
 
