@@ -3958,6 +3958,116 @@
   margin-bottom: 15px;
 }
 
+.offer {
+  display: flex;
+  padding-top: 50px;
+  flex-wrap: wrap;
+}
+@media (max-width: 1400px) {
+  .offer {
+    flex-direction: column;
+  }
+}
+@media (max-width: 1400px) {
+  .offer__title {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+}
+.offer__paragraph:not(:last-child) {
+  margin-bottom: 30px;
+}
+@media (max-width: 1400px) {
+  .offer__paragraph:not(:last-child) {
+    text-align: center;
+  }
+}
+@media (max-width: 1400px) {
+  .offer__paragraph {
+    text-align: center;
+  }
+}
+
+.title-rale-800 {
+  color: #1A2F3F;
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 2.82em;
+  line-height: 1.3em;
+}
+@media (max-width: 400px) {
+  .title-rale-800 {
+    font-size: 2.5em;
+  }
+}
+
+.paragraph-rale-500 {
+  color: #1A2F3F;
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.para-mb:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.offer {
+  display: flex;
+  padding-top: 50px;
+  flex-wrap: wrap;
+}
+@media (max-width: 1400px) {
+  .offer {
+    flex-direction: column;
+  }
+}
+@media (max-width: 1400px) {
+  .offer__title {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+}
+.offer__paragraph:not(:last-child) {
+  margin-bottom: 30px;
+}
+@media (max-width: 1400px) {
+  .offer__paragraph:not(:last-child) {
+    text-align: center;
+  }
+}
+@media (max-width: 1400px) {
+  .offer__paragraph {
+    text-align: center;
+  }
+}
+
+.title-rale-800 {
+  color: #1A2F3F;
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 2.82em;
+  line-height: 1.3em;
+}
+@media (max-width: 400px) {
+  .title-rale-800 {
+    font-size: 2.5em;
+  }
+}
+
+.paragraph-rale-500 {
+  color: #1A2F3F;
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.para-mb:not(:last-child) {
+  margin-bottom: 15px;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0-modified | 20110126
    License: none (public domain)
