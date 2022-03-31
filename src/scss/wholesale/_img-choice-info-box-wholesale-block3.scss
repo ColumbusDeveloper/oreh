@@ -7,10 +7,7 @@
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
-        @media (max-width:1200px) {
-            align-items: center;
-            flex-direction: column;
-        }
+        
     }
 
     &__choice-btn-item {
@@ -24,6 +21,14 @@
         }
 
         &_item3 {
+            cursor: pointer;
+        }
+
+        &_item4 {
+            cursor: pointer;
+        }
+
+        &_item5 {
             cursor: pointer;
         }
     }
@@ -44,26 +49,72 @@
     &__symbol-img {
 
         &_item1-bright {
+            @media (max-width:385px) {
+                width: 90%;
+          }
         }
 
         &_item1-fade {
             filter: brightness(1.5);
+            @media (max-width:385px) {
+                width: 90%;
+          }
         }
 
         &_item2-bright {
             filter: brightness(0.3);
+            @media (max-width:385px) {
+                width: 90%;
+          }
         }
 
         &_item2-fade {
             filter: brightness(0.9);
+            @media (max-width:385px) {
+                width: 90%;
+          }
         }
 
         &_item3-bright {
             filter: brightness(0.3);
+            @media (max-width:385px) {
+                width: 90%;
+          }
         }
 
         &_item3-fade {
             filter: brightness(0.9);
+            @media (max-width:385px) {
+                width: 90%;
+          }
+        }
+
+        &_item4-bright {
+            filter: brightness(0.3);
+            @media (max-width:385px) {
+                width: 90%;
+          }
+        }
+
+        &_item4-fade {
+            filter: brightness(0.9);
+            @media (max-width:385px) {
+                width: 90%;
+          }
+        }
+
+        &_item5-bright {
+            filter: brightness(0.3);
+            @media (max-width:385px) {
+                width: 90%;
+          }
+        }
+
+        &_item5-fade {
+            filter: brightness(0.9);
+            @media (max-width:385px) {
+                width: 90%;
+          }
         }
     }
 
@@ -104,6 +155,20 @@
         }
 
         &_item3 {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        &_item4 {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        &_item {
             display: flex;
             align-items: flex-start;
             justify-content: space-between;
@@ -192,4 +257,15 @@ display: none;
 
 .img-choice-info-box__symbol .none {
   display: none;
+}
+
+.img-choice-info-box-wholesale-block3 .img-choice-info-box__underline {
+    margin-top: 30px;
+}
+
+.img-choice-info-box__choice-btn-box p {
+    @media (max-width:1400px) {
+        display: none;
+    }
+
 }
