@@ -4143,224 +4143,32 @@
   filter: brightness(0.7);
 }
 
-.offer {
+.banner-full-screen-wide-text-and-icon-on {
+  position: relative;
   display: flex;
-  padding-top: 50px;
-  flex-wrap: wrap;
+  justify-content: center;
 }
-@media (max-width: 1400px) {
-  .offer {
-    flex-direction: column;
-  }
-}
-@media (max-width: 1400px) {
-  .offer__title {
-    margin-bottom: 50px;
-    text-align: center;
-  }
-}
-.offer__paragraph:not(:last-child) {
-  margin-bottom: 30px;
-}
-@media (max-width: 1400px) {
-  .offer__paragraph:not(:last-child) {
-    text-align: center;
-  }
-}
-@media (max-width: 1400px) {
-  .offer__paragraph {
-    text-align: center;
-  }
-}
-
-.title-rale-800 {
-  color: #1A2F3F;
-  font-family: "Raleway";
-  font-weight: 800;
-  font-size: 2.82em;
-  line-height: 1.3em;
-}
-@media (max-width: 400px) {
-  .title-rale-800 {
-    font-size: 2.5em;
-  }
-}
-
-.paragraph-rale-500 {
-  color: #1A2F3F;
-  font-family: "Raleway";
-  font-weight: 500;
-  font-size: 1em;
-  line-height: 1.5em;
-}
-
-.para-mb:not(:last-child) {
-  margin-bottom: 15px;
-}
-
-.offer {
+.banner-full-screen-wide-text-and-icon-on__text-and-icon-box {
   display: flex;
-  padding-top: 50px;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-@media (max-width: 1400px) {
-  .offer {
-    flex-direction: column;
+@media (max-width: 576px) {
+  .banner-full-screen-wide-text-and-icon-on__icon {
+    width: 13%;
   }
 }
-@media (max-width: 1400px) {
-  .offer__title {
-    margin-bottom: 50px;
-    text-align: center;
+@media (max-width: 576px) {
+  .banner-full-screen-wide-text-and-icon-on__title {
+    font-size: 1em;
   }
 }
-.offer__paragraph:not(:last-child) {
-  margin-bottom: 30px;
-}
-@media (max-width: 1400px) {
-  .offer__paragraph:not(:last-child) {
-    text-align: center;
-  }
-}
-@media (max-width: 1400px) {
-  .offer__paragraph {
-    text-align: center;
-  }
-}
-
-.title-rale-800 {
-  color: #1A2F3F;
-  font-family: "Raleway";
-  font-weight: 800;
-  font-size: 2.82em;
-  line-height: 1.3em;
-}
-@media (max-width: 400px) {
-  .title-rale-800 {
-    font-size: 2.5em;
-  }
-}
-
-.paragraph-rale-500 {
-  color: #1A2F3F;
-  font-family: "Raleway";
-  font-weight: 500;
-  font-size: 1em;
-  line-height: 1.5em;
-}
-
-.para-mb:not(:last-child) {
-  margin-bottom: 15px;
-}
-
-.offer {
-  display: flex;
-  padding-top: 50px;
-  flex-wrap: wrap;
-}
-@media (max-width: 1400px) {
-  .offer {
-    flex-direction: column;
-  }
-}
-@media (max-width: 1400px) {
-  .offer__title {
-    margin-bottom: 50px;
-    text-align: center;
-  }
-}
-.offer__paragraph:not(:last-child) {
-  margin-bottom: 30px;
-}
-@media (max-width: 1400px) {
-  .offer__paragraph:not(:last-child) {
-    text-align: center;
-  }
-}
-@media (max-width: 1400px) {
-  .offer__paragraph {
-    text-align: center;
-  }
-}
-
-.title-rale-800 {
-  color: #1A2F3F;
-  font-family: "Raleway";
-  font-weight: 800;
-  font-size: 2.82em;
-  line-height: 1.3em;
-}
-@media (max-width: 400px) {
-  .title-rale-800 {
-    font-size: 2.5em;
-  }
-}
-
-.paragraph-rale-500 {
-  color: #1A2F3F;
-  font-family: "Raleway";
-  font-weight: 500;
-  font-size: 1em;
-  line-height: 1.5em;
-}
-
-.para-mb:not(:last-child) {
-  margin-bottom: 15px;
-}
-
-.offer {
-  display: flex;
-  padding-top: 50px;
-  flex-wrap: wrap;
-}
-@media (max-width: 1400px) {
-  .offer {
-    flex-direction: column;
-  }
-}
-@media (max-width: 1400px) {
-  .offer__title {
-    margin-bottom: 50px;
-    text-align: center;
-  }
-}
-.offer__paragraph:not(:last-child) {
-  margin-bottom: 30px;
-}
-@media (max-width: 1400px) {
-  .offer__paragraph:not(:last-child) {
-    text-align: center;
-  }
-}
-@media (max-width: 1400px) {
-  .offer__paragraph {
-    text-align: center;
-  }
-}
-
-.title-rale-800 {
-  color: #1A2F3F;
-  font-family: "Raleway";
-  font-weight: 800;
-  font-size: 2.82em;
-  line-height: 1.3em;
-}
-@media (max-width: 400px) {
-  .title-rale-800 {
-    font-size: 2.5em;
-  }
-}
-
-.paragraph-rale-500 {
-  color: #1A2F3F;
-  font-family: "Raleway";
-  font-weight: 500;
-  font-size: 1em;
-  line-height: 1.5em;
-}
-
-.para-mb:not(:last-child) {
-  margin-bottom: 15px;
+.banner-full-screen-wide-text-and-icon-on__paragraph {
+  text-align: center;
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/
