@@ -4088,6 +4088,61 @@
   }
 }
 
+.imgtextblock {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 1400px) {
+  .imgtextblock {
+    justify-content: center;
+  }
+}
+.imgtextblock__text {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+.imgtextblock__paragraph {
+  color: #1A2F3F;
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-bottom: 30px;
+}
+.imgtextblock__btn {
+  color: #fff;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 1em;
+  display: inline-block;
+  width: 155px;
+  height: 44px;
+  background-color: #337D5A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imgtextblock__btn:hover {
+  background-color: violet;
+}
+.imgtextblock__img {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 30px;
+}
+@media (max-width: 1400px) {
+  .imgtextblock__img {
+    justify-content: center;
+  }
+}
+.imgtextblock__pict2 {
+  filter: brightness(0.7);
+}
+.imgtextblock__pict4 {
+  filter: brightness(0.7);
+}
+
 .offer {
   display: flex;
   padding-top: 50px;

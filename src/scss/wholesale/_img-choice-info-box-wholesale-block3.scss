@@ -269,3 +269,60 @@ display: none;
     }
 
 }
+
+.imgtextblock {
+    display: flex;
+    flex-wrap: wrap;
+    @media (max-width:1400px) {
+        justify-content: center;
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+    }
+
+    &__paragraph {
+        color:#1A2F3F;
+        font-family:"Raleway";
+        font-weight: 500;
+        font-size: 1em;
+        line-height: 1.5em;
+        margin-bottom: 30px;
+    }
+
+    &__btn {
+        color:#fff;
+        font-family:"Raleway";
+        font-weight: 700;
+        font-size: 1em;
+        display: inline-block;
+        width: 155px;
+        height: 44px;
+        background-color: #337D5A;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &:hover {
+            background-color: violet;
+        }
+    }
+
+    &__img {
+        display: flex;
+        justify-content: flex-end;
+        @media (max-width:1400px) {
+            justify-content: center;
+        }
+        padding-top: 30px;
+    }
+
+    &__pict2 {
+        filter: brightness(0.7)
+    }
+
+    &__pict4 {
+        filter: brightness(0.7)
+    }
+}
