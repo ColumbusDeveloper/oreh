@@ -1,0 +1,21 @@
+.static-registration {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    &__title {
+        color:#1A2F3F;
+        font-family:"Raleway";
+        font-weight: 800;
+        font-size: 2em;
+        line-height: 2em;
+    }
+
+    &__subtitle {
+        color:#1A2F3F;
+        font-family:"Montserrat";
+        font-weight: 700;
+        font-size: 1.05em;
+        line-height: 2em;
+    }
+}
