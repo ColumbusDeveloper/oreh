@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Open+Sans+Condensed:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&family=Open+Sans+Condensed:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
@@ -4201,13 +4202,60 @@
   line-height: 2em;
 }
 
-.navigation-pointer-registration1-block1 {
-  position: relative;
+.tabs > input[type=radio] {
+  display: none;
 }
 
-.navigation-pointer-registration1-block1 .gallery-text-top-left {
-  color: #8A8A8A;
-  left: 14px;
+.tabs > div {
+  /* скрыть контент по умолчанию */
+  display: none;
+}
+
+/* отобразить контент, связанный с вабранной радиокнопкой (input type="radio") */
+#tab-btn-1:checked ~ #content-1,
+#tab-btn-2:checked ~ #content-2 {
+  display: block;
+}
+
+.tabs > label {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  padding: 2px 8px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 0.9em;
+  line-height: 1.5em;
+  color: #1A2F3F;
+  cursor: pointer;
+  margin: 0;
+}
+
+#content-1 {
+  position: relative;
+}
+#content-1::after {
+  content: " ";
+  height: 3px;
+  width: 157px;
+  background-color: #337D5A;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#content-2 {
+  position: relative;
+}
+#content-2::after {
+  content: " ";
+  height: 3px;
+  width: 170px;
+  background-color: #337D5A;
+  position: absolute;
+  left: 162px;
+  top: 0;
 }
 
 .navigation-pointer-registration1-block1 {

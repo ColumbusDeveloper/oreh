@@ -1,0 +1,63 @@
+
+.tabs>input[type="radio"] {
+display: none;
+}
+
+.tabs>div {
+/* скрыть контент по умолчанию */
+display: none;
+}
+
+/* отобразить контент, связанный с вабранной радиокнопкой (input type="radio") */
+#tab-btn-1:checked~#content-1,
+#tab-btn-2:checked~#content-2 {
+display: block;
+}
+
+.tabs>label {
+display: inline-block;
+text-align: center;
+vertical-align: middle;
+user-select: none;
+padding: 2px 8px;
+font-family: "Montserrat";
+font-weight: 700;
+font-size: 0.9em;
+line-height: 1.5em;
+color: #1A2F3F;
+cursor: pointer;
+margin: 0;
+}
+
+#content-1 {
+    position: relative;
+    &::after {
+        content: ' ';
+        height: 3px;
+        width: 157px;
+        background-color: #337D5A;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+}
+
+#content-2 {
+    position: relative;
+    &::after {
+        content: ' ';
+        height: 3px;
+        width: 170px;
+        background-color: #337D5A;
+        position: absolute;
+        left: 162px;
+        top: 0;
+    }
+}
+
+// .label_1 {
+//     margin-right: 30px;
+// }
+
+
+
