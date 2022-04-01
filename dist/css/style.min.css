@@ -4177,7 +4177,28 @@
 
 .navigation-pointer-registration1-block1 .gallery-text-top-left {
   color: #8A8A8A;
-  left: 0;
+  left: 14px;
+}
+
+.static-registration {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 30px;
+}
+.static-registration__title {
+  color: #1A2F3F;
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 2em;
+  line-height: 2em;
+}
+.static-registration__subtitle {
+  color: #1A2F3F;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 1.05em;
+  line-height: 2em;
 }
 
 .navigation-pointer-registration1-block1 {
@@ -4186,7 +4207,7 @@
 
 .navigation-pointer-registration1-block1 .gallery-text-top-left {
   color: #8A8A8A;
-  left: 0;
+  left: 14px;
 }
 
 .navigation-pointer-registration1-block1 {
@@ -4195,7 +4216,7 @@
 
 .navigation-pointer-registration1-block1 .gallery-text-top-left {
   color: #8A8A8A;
-  left: 0;
+  left: 14px;
 }
 
 .navigation-pointer-registration1-block1 {
@@ -4204,7 +4225,7 @@
 
 .navigation-pointer-registration1-block1 .gallery-text-top-left {
   color: #8A8A8A;
-  left: 0;
+  left: 14px;
 }
 
 .navigation-pointer-registration1-block1 {
@@ -4213,7 +4234,7 @@
 
 .navigation-pointer-registration1-block1 .gallery-text-top-left {
   color: #8A8A8A;
-  left: 0;
+  left: 14px;
 }
 
 .navigation-pointer-registration1-block1 {
@@ -4222,16 +4243,7 @@
 
 .navigation-pointer-registration1-block1 .gallery-text-top-left {
   color: #8A8A8A;
-  left: 0;
-}
-
-.navigation-pointer-registration1-block1 {
-  position: relative;
-}
-
-.navigation-pointer-registration1-block1 .gallery-text-top-left {
-  color: #8A8A8A;
-  left: 0;
+  left: 14px;
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/
