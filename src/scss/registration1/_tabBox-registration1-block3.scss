@@ -11,7 +11,8 @@ display: none;
 /* отобразить контент, связанный с вабранной радиокнопкой (input type="radio") */
 #tab-btn-1:checked~#content-1,
 #tab-btn-2:checked~#content-2 {
-display: block;
+display: flex;
+flex-direction: column;
 }
 
 .tabs>label {
@@ -29,8 +30,10 @@ cursor: pointer;
 margin: 0;
 }
 
-#content-1 {
+#content-1,
+#content-2 {
     position: relative;
+    
     &::after {
         content: ' ';
         height: 3px;
@@ -44,6 +47,7 @@ margin: 0;
 
 #content-2 {
     position: relative;
+    
     &::after {
         content: ' ';
         height: 3px;
@@ -52,6 +56,57 @@ margin: 0;
         position: absolute;
         left: 162px;
         top: 0;
+    }
+}
+
+.tabBox-registration1-block3 input {
+    border: none;
+    
+}
+
+
+
+.inputBox {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.tabBox-registration1-block3 label {
+    color:#1A2F3F;
+    font-family:"Montserrat";
+    font-weight: 500;
+    font-size: 0.88em;
+    
+}
+
+.inputBox .filter-block2-taste-select__select-block {
+    color: #93B474;
+    width: 120px;
+}
+
+#inputBoxSelectLabel {
+    width: 198px;
+}
+
+#agreementLabel {
+    margin-left: 15px;
+    color: #93B474;
+}
+
+#agreementLabel a {
+    color: #337D5A;
+    font-weight: 700;
+}
+
+#tabsBtn {
+    display: inline-block;
+    width: 198px;
+    height: 180px;
+    color: #337D5A;
+    &:hover {
+        color: violet;
     }
 }
 
