@@ -100,11 +100,17 @@ margin: 0;
     font-weight: 700;
 }
 
-#tabsBtn {
-    display: inline-block;
-    width: 198px;
-    height: 180px;
-    color: #337D5A;
+.tabsBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 317px;
+    height: 51px;
+    color: #fff;
+    font-family:"Raleway";
+    font-weight: 700;
+    font-size: 1em;
+    background-color:#337D5A;
     &:hover {
         color: violet;
     }
