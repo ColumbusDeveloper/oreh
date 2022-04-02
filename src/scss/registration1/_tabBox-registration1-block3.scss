@@ -1,0 +1,185 @@
+
+.tabs>input[type="radio"] {
+display: none;
+}
+
+.tabs>div {
+/* скрыть контент по умолчанию */
+display: none;
+}
+
+/* отобразить контент, связанный с вабранной радиокнопкой (input type="radio") */
+#tab-btn-1:checked~#content-1,
+#tab-btn-2:checked~#content-2 {
+display: flex;
+flex-direction: column;
+}
+
+.tabs>label {
+display: inline-block;
+text-align: center;
+vertical-align: middle;
+user-select: none;
+padding: 2px 8px;
+font-family: "Montserrat";
+font-weight: 700;
+font-size: 0.9em;
+line-height: 1.5em;
+color: #1A2F3F;
+cursor: pointer;
+margin: 0;
+}
+
+#content-1,
+#content-2 {
+    position: relative;
+    
+    &::after {
+        content: ' ';
+        height: 3px;
+        width: 157px;
+        background-color: #337D5A;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+}
+
+#content-2 {
+    position: relative;
+    
+    &::after {
+        content: ' ';
+        height: 3px;
+        width: 170px;
+        background-color: #337D5A;
+        position: absolute;
+        left: 162px;
+        top: 0;
+    }
+}
+
+.tabBox-registration1-block3 input {
+    border: none;
+    
+}
+
+
+
+.inputBox {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.tabBox-registration1-block3 label {
+    color:#1A2F3F;
+    font-family:"Montserrat";
+    font-weight: 500;
+    font-size: 0.88em;
+    
+}
+
+.inputBox .filter-block2-taste-select__select-block {
+    color: #93B474;
+    width: 120px;
+}
+
+#inputBoxSelectLabel {
+    width: 198px;
+}
+
+#agreementLabel {
+    margin-left: 15px;
+    color: #93B474;
+    &:hover {
+        color: red;
+    }
+}
+
+#agreementLabel a {
+    color: #337D5A;
+    font-weight: 700;
+    &:hover {
+        color: violet;
+    }
+}
+
+
+.tabsBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 317px;
+    height: 51px;
+    color: #fff;
+    font-family:"Raleway";
+    font-weight: 700;
+    font-size: 1em;
+    background-color:#337D5A;
+    &:hover {
+        background-color: violet;
+        color: #fff;
+    }
+}
+
+.registration-block1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.avatarBox__paragraph {
+    border-bottom: 2px dashed #fff;
+}
+    
+.avatarBox {
+    @media (max-width:768px) {
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    &__picBox {
+        position: relative;
+        width: 136px;
+    }
+
+    &__paragraph {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-family: "Montserrat";
+        font-weight: 600;
+        font-size: 0.85em;
+        line-height: 2em;
+        width: 86%;
+
+    }
+}
+
+.inputBoxBtn {
+    @media (max-width:768px) {
+      
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.inputBoxCheck {
+    @media (max-width:768px) {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
