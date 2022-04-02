@@ -93,12 +93,19 @@ margin: 0;
 #agreementLabel {
     margin-left: 15px;
     color: #93B474;
+    &:hover {
+        color: red;
+    }
 }
 
 #agreementLabel a {
     color: #337D5A;
     font-weight: 700;
+    &:hover {
+        color: violet;
+    }
 }
+
 
 .tabsBtn {
     display: flex;
@@ -112,9 +119,31 @@ margin: 0;
     font-size: 1em;
     background-color:#337D5A;
     &:hover {
-        color: violet;
+        background-color: violet;
+        color: #fff;
     }
 }
+
+.tabs {
+    border-width:2px;
+    border-style: solid;
+    border-color: #000;
+}
+
+.avatarBox {
+    border-width:2px;
+    border-style: solid;
+    border-color: #000;
+}
+
+.registration-block1 {
+    display: flex;
+}
+
+.avatarBox__paragraph {
+    border-bottom: 2px dashed #fff;
+}
+    
 
 
 

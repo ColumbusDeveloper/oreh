@@ -4292,10 +4292,16 @@
   margin-left: 15px;
   color: #93B474;
 }
+#agreementLabel:hover {
+  color: red;
+}
 
 #agreementLabel a {
   color: #337D5A;
   font-weight: 700;
+}
+#agreementLabel a:hover {
+  color: violet;
 }
 
 .tabsBtn {
@@ -4311,7 +4317,28 @@
   background-color: #337D5A;
 }
 .tabsBtn:hover {
-  color: violet;
+  background-color: violet;
+  color: #fff;
+}
+
+.tabs {
+  border-width: 2px;
+  border-style: solid;
+  border-color: #000;
+}
+
+.avatarBox {
+  border-width: 2px;
+  border-style: solid;
+  border-color: #000;
+}
+
+.registration-block1 {
+  display: flex;
+}
+
+.avatarBox__paragraph {
+  border-bottom: 2px dashed #fff;
 }
 
 .navigation-pointer-registration1-block1 {

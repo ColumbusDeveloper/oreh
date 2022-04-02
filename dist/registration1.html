@@ -268,188 +268,196 @@
             <div class="container">
 				<div class="row">
 					<div class="tabBox-registration1-block3">
-    <div class="tabs">
-        <input type="radio" name="tab-btn" id="tab-btn-1" value="" checked>
-        <label for="tab-btn-1" >Физическое лицо </label>
-        
-        <input type="radio" name="tab-btn" id="tab-btn-2" value="">
-        <label for="tab-btn-2">Юридическое лицо </label>
-       
-        <div id="content-1">
-            <div class="inputBox">
-                <label for="FIO">ФИО*</label>
-                <input type="text" id="FIO" tabindex="1" name="individual">
+    <div class="registration-block1">
+        <div class="tabs col-6">
+            <input type="radio" name="tab-btn" id="tab-btn-1" value="" checked>
+            <label for="tab-btn-1" >Физическое лицо </label>
+            
+            <input type="radio" name="tab-btn" id="tab-btn-2" value="">
+            <label for="tab-btn-2">Юридическое лицо </label>
+           
+            <div id="content-1">
+                <div class="inputBox">
+                    <label for="FIO">ФИО*</label>
+                    <input type="text" id="FIO" tabindex="1" name="individual">
+                </div>
+    
+                <div class="inputBox">
+                    <label for="email">Email*</label>
+                    <input type="email" id="email" tabindex="2" name="individual">
+                </div>
+    
+                <div class="inputBox">
+                    <label for="tel">Телефон*</label>
+                    <input type="tel" id="tel" tabindex="3" name="individual">
+                </div>
+    
+                <div class="inputBox">
+                    <h3 class="static-registration__subtitle">
+                        2.Адрес
+                    </h3>
+                </div>
+    
+                <div class="inputBox">
+                    <label for="taste-selectCity" class="filter-block2-taste-select__label" id="inputBoxSelectLabel">Страна </label>
+                        <select name="individual" id="taste-selectCity" class="filter-block2-taste-select__select-block">
+                            <option value=""></option>
+                            <option value="dog">Украина</option>
+                            <option value="cat">США</option>
+                            <option value="hamster">Англия</option>
+                            <option value="parrot">Франция</option>
+                            <option value="spider">Германия</option>
+                            <option value="goldfish">Испания</option>
+                        </select>
+                </div>
+    
+                <div class="inputBox">
+                    <label for="taste-select" class="filter-block2-taste-select__label" id="inputBoxSelectLabel">Область</label>
+                        <select name="individual" id="taste-select" class="filter-block2-taste-select__select-block">
+                            <option value=""></option>
+                            <option value="dog">Одесская</option>
+                            <option value="cat">Николаевская</option>
+                            <option value="hamster">Киевская</option>
+                            <option value="parrot">Сумская</option>
+                            <option value="spider">Винницкая</option>
+                            <option value="goldfish">Черниговская</option>
+                        </select>
+                </div>
+    
+                <div class="inputBox">
+                    <label for="city">Город*</label>
+                    <input type="text" id="city" tabindex="4" name="individual">
+                </div>
+    
+                <div class="inputBox">
+                    <label for="address">Адрес</label>
+                    <input type="text" id="address" tabindex="5" name="individual">
+                </div>
+    
+                <div class="inputBox">
+                    <h3 class="static-registration__subtitle">
+                        3.Пароль
+                    </h3>
+                </div>
+    
+                <div class="inputBox">
+                    <label for="password">Пароль*</label>
+                    <input type="password" id="password" tabindex="6" name="individual">
+                </div>
+    
+                <div class="inputBox">
+                    <label for="passwordConfirmation">Подтвердите пароль*</label>
+                    <input type="password" id="passwordConfirmation" tabindex="7" name="individual">
+                </div>
+    
+                <div class="inputBox">
+                    <input type="checkbox" id="agreement" tabindex="8" name="individual">
+                    <label for="agreement" id="agreementLabel">Я согласен c <span> <a href="#" target="blank">Условиями регистрации</a></span></label> 
+                </div>
+    
+                <div class="inputBox">
+                    <a href="#" target="blank" class="tabsBtn" tabindex="9">Продолжить</a>
+                </div>
+                
             </div>
-
-            <div class="inputBox">
-                <label for="email">Email*</label>
-                <input type="email" id="email" tabindex="2" name="individual">
-            </div>
-
-            <div class="inputBox">
-                <label for="tel">Телефон*</label>
-                <input type="tel" id="tel" tabindex="3" name="individual">
-            </div>
-
-            <div class="inputBox">
-                <h3 class="static-registration__subtitle">
-                    2.Адрес
-                </h3>
-            </div>
-
-            <div class="inputBox">
-                <label for="taste-select" class="filter-block2-taste-select__label" id="inputBoxSelectLabel">Страна </label>
-                    <select name="individual" id="taste-select" class="filter-block2-taste-select__select-block">
-                        <option value=""></option>
-                        <option value="dog">Украина</option>
-                        <option value="cat">США</option>
-                        <option value="hamster">Англия</option>
-                        <option value="parrot">Франция</option>
-                        <option value="spider">Германия</option>
-                        <option value="goldfish">Испания</option>
-                    </select>
-            </div>
-
-            <div class="inputBox">
-                <label for="taste-select" class="filter-block2-taste-select__label" id="inputBoxSelectLabel">Область</label>
-                    <select name="individual" id="taste-select" class="filter-block2-taste-select__select-block">
-                        <option value=""></option>
-                        <option value="dog">Одесская</option>
-                        <option value="cat">Николаевская</option>
-                        <option value="hamster">Киевская</option>
-                        <option value="parrot">Сумская</option>
-                        <option value="spider">Винницкая</option>
-                        <option value="goldfish">Черниговская</option>
-                    </select>
-            </div>
-
-            <div class="inputBox">
-                <label for="city">Город*</label>
-                <input type="text" id="city" tabindex="4" name="individual">
-            </div>
-
-            <div class="inputBox">
-                <label for="address">Адрес</label>
-                <input type="text" id="address" tabindex="5" name="individual">
-            </div>
-
-            <div class="inputBox">
-                <h3 class="static-registration__subtitle">
-                    3.Пароль
-                </h3>
-            </div>
-
-            <div class="inputBox">
-                <label for="password">Пароль*</label>
-                <input type="password" id="password" tabindex="6" name="individual">
-            </div>
-
-            <div class="inputBox">
-                <label for="passwordConfirmation">Подтвердите пароль*</label>
-                <input type="password" id="passwordConfirmation" tabindex="7" name="individual">
-            </div>
-
-            <div class="inputBox">
-                <input type="checkbox" id="agreement" tabindex="8" name="individual">
-                <label for="agreement" id="agreementLabel">Я согласен c <span> <a href="#" target="blank">Условиями регистрации</a></span></label> 
-            </div>
-
-            <div class="inputBox">
-                <a href="#" target="blank" class="tabsBtn" tabindex="9">Продолжить</a>
+            <div id="content-2">
+                <div class="inputBox">
+                    <label for="name">Наименование*</label>
+                    <input type="text" id="name" tabindex="1" name="legal">
+                </div>
+    
+                <div class="inputBox">
+                    <label for="FIOboss">ФИО руководителя*</label>
+                    <input type="text" id="FIOboss" tabindex="2" name="legal">
+                </div>
+    
+                <div class="inputBox">
+                    <label for="emailLegal">Email*</label>
+                    <input type="email" id="emailLegal" tabindex="3" name="legal">
+                </div>
+    
+                <div class="inputBox">
+                    <label for="telLegal">Телефон*</label>
+                    <input type="tel" id="telLegal" tabindex="4" name="legal">
+                </div>
+    
+                <div class="inputBox">
+                    <h3 class="static-registration__subtitle">
+                        2.Адрес
+                    </h3>
+                </div>
+    
+                <div class="inputBox">
+                    <label for="taste-selectLegal" class="filter-block2-taste-select__label" id="inputBoxSelectLabel">Страна </label>
+                        <select name="legal" id="taste-selectLegal" class="filter-block2-taste-select__select-block">
+                            <option value=""></option>
+                            <option value="dog">Украина</option>
+                            <option value="cat">США</option>
+                            <option value="hamster">Англия</option>
+                            <option value="parrot">Франция</option>
+                            <option value="spider">Германия</option>
+                            <option value="goldfish">Испания</option>
+                        </select>
+                </div>
+    
+                <div class="inputBox">
+                    <label for="taste-selectLegalDist"" class="filter-block2-taste-select__label" id="inputBoxSelectLabel">Область</label>
+                        <select name="legal" id="taste-selectLegalDist" class="filter-block2-taste-select__select-block">
+                            <option value=""></option>
+                            <option value="dog">Одесская</option>
+                            <option value="cat">Николаевская</option>
+                            <option value="hamster">Киевская</option>
+                            <option value="parrot">Сумская</option>
+                            <option value="spider">Винницкая</option>
+                            <option value="goldfish">Черниговская</option>
+                        </select>
+                </div>
+    
+                <div class="inputBox">
+                    <label for="cityLegal">Город*</label>
+                    <input type="text" id="cityLegal" tabindex="5" name="legal">
+                </div>
+    
+                <div class="inputBox">
+                    <label for="addressLegal">Адрес</label>
+                    <input type="text" id="addressLegal" tabindex="6" name="legal">
+                </div>
+    
+                <div class="inputBox">
+                    <h3 class="static-registration__subtitle">
+                        3.Пароль
+                    </h3>
+                </div>
+    
+                <div class="inputBox">
+                    <label for="passwordLegal">Пароль*</label>
+                    <input type="password" id="passwordLegal" tabindex="7" name="legal">
+                </div>
+    
+                <div class="inputBox">
+                    <label for="passwordConfirmationLegal">Подтвердите пароль*</label>
+                    <input type="password" id="passwordConfirmationLegal" tabindex="8" name="legal">
+                </div>
+    
+                <div class="inputBox">
+                    <input type="checkbox" id="agreementLegal" tabindex="9" name="legal">
+                    <label for="agreementLegal" id="agreementLabel">Я согласен c <span> <a href="#" target="blank">Условиями регистрации</a></span></label> 
+                </div>
+    
+                <div class="inputBox">
+                    <a href="#" target="blank" class="tabsBtn" tabindex="10">Продолжить</a>
+                </div>
             </div>
             
         </div>
-        <div id="content-2">
-            <div class="inputBox">
-                <label for="name">Наименование*</label>
-                <input type="text" id="name" tabindex="1" name="individual">
-            </div>
 
-            <div class="inputBox">
-                <label for="FIOboss">ФИО руководителя*</label>
-                <input type="text" id="FIOboss" tabindex="2" name="individual">
-            </div>
+        <div class="avatarBox col-6">
 
-            <div class="inputBox">
-                <label for="email">Email*</label>
-                <input type="email" id="email" tabindex="3" name="individual">
-            </div>
-
-            <div class="inputBox">
-                <label for="tel">Телефон*</label>
-                <input type="tel" id="tel" tabindex="4" name="individual">
-            </div>
-
-            <div class="inputBox">
-                <h3 class="static-registration__subtitle">
-                    2.Адрес
-                </h3>
-            </div>
-
-            <div class="inputBox">
-                <label for="taste-select" class="filter-block2-taste-select__label" id="inputBoxSelectLabel">Страна </label>
-                    <select name="individual" id="taste-select" class="filter-block2-taste-select__select-block">
-                        <option value=""></option>
-                        <option value="dog">Украина</option>
-                        <option value="cat">США</option>
-                        <option value="hamster">Англия</option>
-                        <option value="parrot">Франция</option>
-                        <option value="spider">Германия</option>
-                        <option value="goldfish">Испания</option>
-                    </select>
-            </div>
-
-            <div class="inputBox">
-                <label for="taste-select" class="filter-block2-taste-select__label" id="inputBoxSelectLabel">Область</label>
-                    <select name="individual" id="taste-select" class="filter-block2-taste-select__select-block">
-                        <option value=""></option>
-                        <option value="dog">Одесская</option>
-                        <option value="cat">Николаевская</option>
-                        <option value="hamster">Киевская</option>
-                        <option value="parrot">Сумская</option>
-                        <option value="spider">Винницкая</option>
-                        <option value="goldfish">Черниговская</option>
-                    </select>
-            </div>
-
-            <div class="inputBox">
-                <label for="city">Город*</label>
-                <input type="text" id="city" tabindex="5" name="individual">
-            </div>
-
-            <div class="inputBox">
-                <label for="address">Адрес</label>
-                <input type="text" id="address" tabindex="6" name="individual">
-            </div>
-
-            <div class="inputBox">
-                <h3 class="static-registration__subtitle">
-                    3.Пароль
-                </h3>
-            </div>
-
-            <div class="inputBox">
-                <label for="password">Пароль*</label>
-                <input type="password" id="password" tabindex="7" name="individual">
-            </div>
-
-            <div class="inputBox">
-                <label for="passwordConfirmation">Подтвердите пароль*</label>
-                <input type="password" id="passwordConfirmation" tabindex="8" name="individual">
-            </div>
-
-            <div class="inputBox">
-                <input type="checkbox" id="agreement" tabindex="9" name="individual">
-                <label for="agreement" id="agreementLabel">Я согласен c <span> <a href="#" target="blank">Условиями регистрации</a></span></label> 
-            </div>
-
-            <div class="inputBox">
-                <a href="#" target="blank" class="tabsBtn" tabindex="10">Продолжить</a>
-            </div>
         </div>
         
 
     </div>
+   
 
 </div>
 
