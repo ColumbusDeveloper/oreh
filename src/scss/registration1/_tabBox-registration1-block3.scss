@@ -124,26 +124,60 @@ margin: 0;
     }
 }
 
-.tabs {
-    border-width:2px;
-    border-style: solid;
-    border-color: #000;
-}
-
-.avatarBox {
-    border-width:2px;
-    border-style: solid;
-    border-color: #000;
-}
-
 .registration-block1 {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .avatarBox__paragraph {
     border-bottom: 2px dashed #fff;
 }
     
+.avatarBox {
+    @media (max-width:768px) {
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    &__picBox {
+        position: relative;
+        width: 136px;
+    }
+
+    &__paragraph {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-family: "Montserrat";
+        font-weight: 600;
+        font-size: 0.85em;
+        line-height: 2em;
+        width: 86%;
+
+    }
+}
+
+.inputBoxBtn {
+    @media (max-width:768px) {
+      
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.inputBoxCheck {
+    @media (max-width:768px) {
+        display: flex;
+        justify-content: center;
+    }
+}
+
 
 
 
