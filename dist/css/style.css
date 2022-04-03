@@ -4418,13 +4418,28 @@
   left: 14px;
 }
 
-.navigation-pointer-account-block1 {
-  position: relative;
+.mainMiddlePart-account-block2 .static-registration {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
 }
 
-.navigation-pointer-account-block1 .gallery-text-top-left {
-  color: #8A8A8A;
-  left: 14px;
+.static-registration__managerBox {
+  display: flex;
+  flex-direction: column;
+  padding-left: 75px;
+}
+
+.mainMiddlePart-account-block2 .static-registration__title {
+  line-height: 1;
+}
+
+.static-registration__telLink {
+  color: #337D5A;
+}
+
+.static-registration__telBox {
+  color: #337D5A;
 }
 
 .navigation-pointer-account-block1 {
