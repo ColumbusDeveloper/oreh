@@ -134,6 +134,7 @@ margin: 0;
 }
     
 .avatarBox {
+    cursor: pointer;
     @media (max-width:768px) {
         padding-top: 50px;
         display: flex;

@@ -4330,6 +4330,9 @@
   border-bottom: 2px dashed #fff;
 }
 
+.avatarBox {
+  cursor: pointer;
+}
 @media (max-width: 768px) {
   .avatarBox {
     padding-top: 50px;
