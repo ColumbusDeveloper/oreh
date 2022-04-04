@@ -4442,6 +4442,54 @@
   color: #337D5A;
 }
 
+.transformImgBox {
+  display: flex;
+  flex-wrap: wrap;
+}
+.transformImgBox__btn {
+  padding-top: 30px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #000;
+  height: 50vh;
+}
+.transformImgBox__appearance {
+  padding-top: 30px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #000;
+  height: 50vh;
+}
+.transformImgBox__imgBox {
+  padding-top: 30px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #000;
+  height: 50vh;
+}
+.transformImgBox__titleBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 50px;
+}
+.transformImgBox__title {
+  margin-bottom: 20px;
+  color: #1A2F3F;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 1.125em;
+}
+.transformImgBox__subtitle {
+  color: #1A2F3F;
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 1em;
+}
+.transformImgBox__subtitle:not(:last-child) {
+  margin-bottom: 5px;
+}
+
 .navigation-pointer-account-block1 {
   position: relative;
 }

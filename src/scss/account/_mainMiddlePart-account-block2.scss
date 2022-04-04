@@ -24,3 +24,64 @@
 .static-registration__telBox {
     color: #337D5A;
 }
+
+.transformImgBox {
+    display: flex;
+    flex-wrap: wrap;
+    
+
+    &__btn {
+        padding-top: 30px;
+        border-width:2px;
+        border-style: solid;
+        border-color: #000;
+        height: 50vh;
+    }
+
+    &__appearance {
+        padding-top: 30px;
+        border-width:2px;
+        border-style: solid;
+        border-color: #000;
+        height: 50vh;
+    }
+
+    &__imgBox {
+        padding-top: 30px;
+        border-width:2px;
+        border-style: solid;
+        border-color: #000;
+        height: 50vh;
+    }
+
+    &__titleBox {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 50px;
+    }
+
+    &__title {
+        margin-bottom: 20px;
+        color:#1A2F3F;
+        font-family:"Raleway";
+        font-weight: 700;
+        font-size: 1.125em;
+        
+    }
+
+    &__subtitle {
+        color:#1A2F3F;
+        font-family:"Raleway";
+        font-weight: 500;
+        font-size: 1em;
+      
+    }
+
+    &__subtitle:not(:last-child) {
+        margin-bottom: 5px;
+    }
+}
+
+
+
