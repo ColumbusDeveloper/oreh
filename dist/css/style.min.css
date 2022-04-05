@@ -4644,6 +4644,50 @@
   padding-bottom: 50px;
 }
 
+.section404 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section404__img {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.section404__para {
+  color: #1A2F3F;
+  font-family: "Raleway";
+  font-weight: 500em;
+  font-size: 1.1em;
+  margin-bottom: 30px;
+}
+.section404__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 332px;
+  height: 50px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #337D5A;
+  color: #337D5A;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 1em;
+  margin-bottom: 100px;
+}
+.section404__btn:hover {
+  background-color: violet;
+  color: #fff;
+}
+
+.bi-distribute-horizontal {
+  color: transparent;
+  font-weight: 0px;
+}
+.bi-distribute-horizontal::before {
+  font-size: 10px;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0-modified | 20110126
    License: none (public domain)
