@@ -1697,6 +1697,10 @@
   text-align: center;
 }
 
+.img-box-row2 {
+  margin-top: -18px;
+}
+
 .text-box-title-and-single-paragraph-left {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -1919,6 +1923,7 @@
 
 .banner-full-screen-wide-narrow-text-center-on {
   position: relative;
+  margin-top: -18px;
 }
 .banner-full-screen-wide-narrow-text-center-on__title {
   position: absolute;
@@ -2185,6 +2190,10 @@
   .banner-full-screen-block1 .banner-full-screen-wide-text-and-icon-on__icon {
     width: 10%;
   }
+}
+
+.banner-full-screen-block1 {
+  margin-top: -18px;
 }
 
 .text-box-title-and-single-paragraph {
@@ -3842,6 +3851,10 @@
   .banner-full-screen-wholesale-block1 .banner-full-screen-wide-text-and-icon-on__icon {
     width: 10%;
   }
+}
+
+.banner-full-screen-wide-text-and-icon-on__title {
+  margin-top: -18px;
 }
 
 .offer {
