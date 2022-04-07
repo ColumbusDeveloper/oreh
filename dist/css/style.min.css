@@ -524,6 +524,18 @@
     margin-left: 2010%;
   }
 }
+@media (max-width: 576px) {
+  .navbar-toggler1._none .header-navbar-toggler-icon-cross {
+    margin-top: -1164%;
+    margin-left: 917%;
+  }
+}
+@media (max-width: 375px) {
+  .navbar-toggler1._none .header-navbar-toggler-icon-cross {
+    margin-top: -1164%;
+    margin-left: 917%;
+  }
+}
 
 .mid-level-burger-discount-text {
   padding-top: 20px;
