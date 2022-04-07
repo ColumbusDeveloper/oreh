@@ -1,8 +1,6 @@
 
    
-.header {
-    overflow-x: hidden;
-}
+
 
 .container {
     background-color: #fff;
@@ -282,10 +280,7 @@
         margin-right: -14%;
     }
 
-    @media (max-width:576px) {
-        margin-left: -60px;
-        margin-right: -60px;
-    }
+    
 
     
 
@@ -550,5 +545,14 @@
 .mid-level-burger._none {
     display: none;
 }
+
+.header {
+    overflow: hidden;      
+    
+}
+
+
+
+
 
 

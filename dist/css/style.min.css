@@ -35,10 +35,6 @@
   font-weight: 400;
   font-style: normal;
 }
-.header {
-  overflow-x: hidden;
-}
-
 .container {
   background-color: #fff;
   margin: 0 auto;
@@ -311,12 +307,6 @@
     margin-right: -14%;
   }
 }
-@media (max-width: 576px) {
-  .nav-item {
-    margin-left: -60px;
-    margin-right: -60px;
-  }
-}
 @media (min-width: 992px) {
   .nav-item {
     margin-left: 0;
@@ -574,6 +564,10 @@
 
 .mid-level-burger._none {
   display: none;
+}
+
+.header {
+  overflow: hidden;
 }
 
 .row-address {
