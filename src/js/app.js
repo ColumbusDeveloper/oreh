@@ -610,6 +610,40 @@ if (btn5) {
   }) 
 }
 
+const btnUr = document.getElementById('tab-btn-2');
+if (btnUr) {
+  
+  btnUr.addEventListener("click", function btnUrClick () {
+    const partUr = document.querySelector(".inputBoxUr");
+    const partFop = document.querySelector(".inputBoxFop");
+  
+    partUr.classList.add ("active");
+    partUr.classList.replace("none", "active");
+
+    partFop.classList.add ("none");
+    partFop.classList.replace("active", "none");
+    
+  }) 
+}
+
+const btnFop = document.getElementById('tab-btn-1');
+if (btnFop) {
+  
+  btnFop.addEventListener("click", function btnFopClick () {
+    const partUr = document.querySelector(".inputBoxUr");
+    const partFop = document.querySelector(".inputBoxFop");
+    
+    partUr.classList.add ("none");
+    partUr.classList.replace("active", "none");
+
+    partFop.classList.add ("active");
+    partFop.classList.replace("none", "active");
+
+  }) 
+}
+
+inputBoxFop
+
 
 
 
