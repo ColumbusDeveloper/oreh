@@ -4444,6 +4444,19 @@
   }
 }
 
+#Ur,
+#Fop {
+  color: #337D5A;
+}
+
+input[type=radio]:checked ~ .check {
+  color: #337D5A;
+}
+
+input[type=radio]:checked ~ .check .inside {
+  color: #337D5A;
+}
+
 .navigation-pointer-registration1-block1 {
   position: relative;
 }

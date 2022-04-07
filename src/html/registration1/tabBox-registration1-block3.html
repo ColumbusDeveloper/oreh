@@ -185,15 +185,78 @@
             
         </div>
 
-        <div class="avatarBox col-12 col-md-6">
+        <div class="avatarBox  col-12 col-md-6">
             <div class="avatarBox__picBox">
                 <img src="img/avatar_pic.png" alt="none">
                 <p class="avatarBox__paragraph">  Загрузить фото</p>
             </div>
-            <div class="inputBox">
+            <div class="inputBox inputBoxFop">
                 <input type="checkbox" id="agreementLegal" tabindex="11" name="legal">
                 <label for="agreementLegal" id="agreementLabel">Являюсь ФОП</label> 
             </div>
+            <div class="inputBoxUr">
+                <div class="inputBox">
+                    <input type="radio" checked id="Ur" name="legal">
+                    <label for="Ur" id="Ur">Юр. лицо</label> 
+                </div>
+                <div class="inputBox">
+                    <input type="radio" id="Fop" name="legal">
+                    <label for="Fop" id="Fop">ФОП</label> 
+                </div>
+                <div class="inputBox">
+                    <h3 class="static-registration__subtitle">
+                        1.Реквизиты
+                    </h3>
+                </div>
+                <div class="inputBox">
+                    <label for="OKPO">ОКПО</label>
+                    <input type="text" id="OKPO"  name="legal">
+                </div>
+                <div class="inputBox">
+                    <h3 class="static-registration__subtitle">
+                        2.Юридический адрес
+                    </h3>
+                </div>
+                <div class="inputBox">
+                    <label for="taste-selectLegal" class="filter-block2-taste-select__label" id="inputBoxSelectLabel">Страна </label>
+                        <select name="legal" id="taste-selectLegal" class="filter-block2-taste-select__select-block">
+                            <option value=""></option>
+                            <option value="dog">Украина</option>
+                            <option value="cat">США</option>
+                            <option value="hamster">Англия</option>
+                            <option value="parrot">Франция</option>
+                            <option value="spider">Германия</option>
+                            <option value="goldfish">Испания</option>
+                        </select>
+                </div>
+                <div class="inputBox">
+                    <label for="taste-selectLegalDist"" class="filter-block2-taste-select__label" id="inputBoxSelectLabel">Область</label>
+                        <select name="legal" id="taste-selectLegalDist" class="filter-block2-taste-select__select-block">
+                            <option value=""></option>
+                            <option value="dog">Одесская</option>
+                            <option value="cat">Николаевская</option>
+                            <option value="hamster">Киевская</option>
+                            <option value="parrot">Сумская</option>
+                            <option value="spider">Винницкая</option>
+                            <option value="goldfish">Черниговская</option>
+                        </select>
+                </div>
+                <div class="inputBox">
+                    <label for="city">Город*</label>
+                    <input type="text" id="city"  name="legal">
+                </div>
+                <div class="inputBox">
+                    <label for="address">Адрес</label>
+                    <input type="text" id="address"  name="legal">
+                </div>
+                <div class="inputBox">
+                    <label for="index">Индекс</label>
+                    <input type="text" id="index"  name="legal">
+                </div>
+                
+                
+            </div>
+
 
         </div>
         

@@ -179,6 +179,15 @@ margin: 0;
     }
 }
 
+#Ur,
+#Fop {
+    color: #337D5A;
+}
+
+
+
+input[type=radio]:checked ~ .check {color: #337D5A;}
+input[type=radio]:checked ~ .check .inside{color: #337D5A;}
 
 
 
